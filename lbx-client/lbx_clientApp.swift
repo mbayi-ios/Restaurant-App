@@ -11,7 +11,7 @@ import SwiftUI
 struct lbx_clientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WalkthroughNotificationView()
         }
     }
 }
