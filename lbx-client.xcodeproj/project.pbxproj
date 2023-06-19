@@ -21,6 +21,7 @@
 		CD29262C2A40B6B800565D2A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29262B2A40B6B800565D2A /* Colors.swift */; };
 		CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */; };
 		CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926312A40C2FF00565D2A /* ButtonStyles.swift */; };
+		CD2926352A40D48900565D2A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926342A40D48900565D2A /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CD29262B2A40B6B800565D2A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfiguration.swift; sourceTree = "<group>"; };
 		CD2926312A40C2FF00565D2A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		CD2926342A40D48900565D2A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD2926332A40D31F00565D2A /* Splash */,
 				CD29262D2A40BB8400565D2A /* Models */,
 				CD2926282A40B51300565D2A /* Config */,
 				CD29260D2A40AC9200565D2A /* Walkthrough */,
@@ -199,6 +202,14 @@
 			path = Atoms;
 			sourceTree = "<group>";
 		};
+		CD2926332A40D31F00565D2A /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				CD2926342A40D48900565D2A /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -275,6 +286,7 @@
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
 				CD2926022A40AC7400565D2A /* ContentView.swift in Sources */,
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
+				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,

@@ -9,9 +9,14 @@ import Foundation
 import SwiftUI
 
 struct Icons {
+    let base = Base()
     let walkthrough = Walkthrough()
     
     struct Walkthrough {
         let notifications = Image("WalkthroughNotifications")
+    }
+    
+    struct Base {
+        let brand = Image("Brand")
     }
 }
