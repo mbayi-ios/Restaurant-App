@@ -92,7 +92,7 @@ struct CreateAccountView: View {
             autocorrectDisabled: true,
                       keyboardType: .numberPad,
                       formatStyle: .phone,
-            leftText: String(localized: "FormFields.Text.UsCode"))
+            leftText: String(localized: "FormFields.Text.USCode"))
             
             SecureFormField(
                 text: $firstName,

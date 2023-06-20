@@ -10,6 +10,9 @@
 		CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20742A41C88500B01456 /* SecureFormField.swift */; };
 		CD0A20792A41EEEA00B01456 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20782A41EEEA00B01456 /* CreateAccountView.swift */; };
 		CD0A207B2A4229E600B01456 /* TermsOfServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A207A2A4229E600B01456 /* TermsOfServiceView.swift */; };
+		CD0A20802A42319F00B01456 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A207F2A42319F00B01456 /* HomeView.swift */; };
+		CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20822A4231CB00B01456 /* HomeCarouselView.swift */; };
+		CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20852A42424500B01456 /* ProfilePageView.swift */; };
 		CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */; };
 		CD2926022A40AC7400565D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926012A40AC7400565D2A /* ContentView.swift */; };
 		CD2926042A40AC7500565D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2926032A40AC7500565D2A /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 		CD0A20762A41EDE400B01456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CD0A20782A41EEEA00B01456 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		CD0A207A2A4229E600B01456 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
+		CD0A207F2A42319F00B01456 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CD0A20822A4231CB00B01456 /* HomeCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarouselView.swift; sourceTree = "<group>"; };
+		CD0A20852A42424500B01456 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
 		CD2925FC2A40AC7400565D2A /* lbx-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lbx-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lbx_clientApp.swift; sourceTree = "<group>"; };
 		CD2926012A40AC7400565D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +84,47 @@
 			path = CreateAccount;
 			sourceTree = "<group>";
 		};
+		CD0A207C2A42317200B01456 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A207F2A42319F00B01456 /* HomeView.swift */,
+				CD0A20812A4231BD00B01456 /* HomeCarousel */,
+				CD0A207E2A42318C00B01456 /* HomeHubContent */,
+				CD0A207D2A42318000B01456 /* HomeLastOrder */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD0A207D2A42318000B01456 /* HomeLastOrder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeLastOrder;
+			sourceTree = "<group>";
+		};
+		CD0A207E2A42318C00B01456 /* HomeHubContent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeHubContent;
+			sourceTree = "<group>";
+		};
+		CD0A20812A4231BD00B01456 /* HomeCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A20822A4231CB00B01456 /* HomeCarouselView.swift */,
+			);
+			path = HomeCarousel;
+			sourceTree = "<group>";
+		};
+		CD0A20842A42423700B01456 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A20852A42424500B01456 /* ProfilePageView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		CD2925F32A40AC7400565D2A = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +145,8 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A20842A42423700B01456 /* Profile */,
+				CD0A207C2A42317200B01456 /* Home */,
 				CD0A20772A41EEDC00B01456 /* CreateAccount */,
 				CD0A20762A41EDE400B01456 /* Info.plist */,
 				CD29263B2A40EA3F00565D2A /* System */,
@@ -322,11 +371,14 @@
 				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
+				CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */,
 				CD0A20792A41EEEA00B01456 /* CreateAccountView.swift in Sources */,
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
+				CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */,
 				CD2926382A40D79500565D2A /* SignInView.swift in Sources */,
 				CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */,
 				CD0A207B2A4229E600B01456 /* TermsOfServiceView.swift in Sources */,
+				CD0A20802A42319F00B01456 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

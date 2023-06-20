@@ -24,6 +24,20 @@ extension Button {
     func link() -> some View {
         buttonStyle(Link(isBold: false))
     }
+    
+    func criticalLink() -> some View {
+        buttonStyle(CriticalLink())
+    }
+}
+
+private struct CriticalLink: ButtonStyle {
+    @Environment(\.theme) var theme: Theme
+    
+    func makeBody(configuration: Configuration) -> some View {
+        return configuration.label
+            .foregroundColor(theme.colors.textCriticalSecondary)
+            .font(theme.typography.buttonLinkBold)
+    }
 }
 
 private struct Link: ButtonStyle {

@@ -13,7 +13,8 @@ struct lbx_clientApp: App {
         WindowGroup {
             //WalkthroughNotificationView()
             //SignInView(email: "email", password: "xxx")
-            CreateAccountView()
+            //CreateAccountView()
+            ProfilePageView()
         }
     }
 }

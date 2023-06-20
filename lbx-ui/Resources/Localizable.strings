@@ -5,7 +5,11 @@
 "Walkthrough.Label.SkipForNow" = "Skip Now";
 
 // MARK: - FormFields
-"FormFields.Text.UsCode" = "+1";
+"FormFields.Text.USCode" = "+1";
+
+// MARK: - Molecules
+"Molecules.FormField.Edit" = "EDIT";
+
 
 // MARK: - Create Account Page
 "CreateAccountView.Label.CreateYourAccount" = "Create Your Account";
@@ -39,6 +43,21 @@
 "SignInView.Button.ForgotPassword" = "Forgot Password?";
 
 "SignInView.Button.SignIn" = "Sign In";
+
+// MARK: - Profile Page
+"ProfilePageView.FieldTitle.FirstNameField" = "First Name";
+"ProfilePageView.FieldTitle.LastNameField" = "Last Name";
+"ProfilePageView.FieldTitle.EmailField" = "Email Address";
+
+"ProfilePageView.FieldTitle.BirthdayField" = "Birthday";
+"ProfilePageView.FieldPlaceholder.BirthdayField" = "MM/DD/YYYY";
+
+"ProfilePageView.FieldTitle.PhoneField" = "Mobile Number";
+
+"ProfilePageView.FieldTitle.PasswordField" = "Password";
+
+"ProfilePageModel.Action.Delete" = "DELETE ACCOUNT";
+"ProfilePageModel.Action.Save" = "Save";
 
 // MARK: - Terms of Service Page
 "TermsOfService.Label.SigningIn" = "By Signing in to an account, you agree to";
