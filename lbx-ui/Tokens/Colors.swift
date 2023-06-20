@@ -26,7 +26,7 @@ class Colors: Equatable
         surfaceNavigation = Color(stringLiteral: "#FFFFFF")
     }
     
-    var brand: Color = Color.red
+    var brand: Color = Color(stringLiteral: "#027148")
     var accentBrand: Color
 
     var textDefault: Color { "#000000" }    // "Bob Black"
@@ -283,16 +283,6 @@ extension UIColor
                        alpha: alpha)
     }
 }
-
-// FIXME: Will delete later. Left in for anyone who wants to play around.
-
-//struct AccentColorExample_Previews: PreviewProvider
-//{
-//    static var previews: some View
-//    {
-//        AccentColorExample()
-//    }
-//}
 
 struct AccentColorExample: View
 {

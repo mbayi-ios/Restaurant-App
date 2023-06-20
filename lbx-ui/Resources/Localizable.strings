@@ -4,11 +4,33 @@
 "Walkthrough.Label.EnableNotifications" = "Enable Notifications";
 "Walkthrough.Label.SkipForNow" = "Skip Now";
 
+// MARK: - FormFields
+"FormFields.Text.UsCode" = "+1";
+
+// MARK: - Create Account Page
+"CreateAccountView.Label.CreateYourAccount" = "Create Your Account";
+"CreateAccountView.Label.AlreadyHaveAnAccount" = "Already have an account?";
+"CreateAccountView.Label.SignIn" = "SIGN IN";
+
+"CreateAccountView.FieldTitle.FirstName" = "First Name";
+"CreateAccountView.FieldTitle.LastName" = "Last Name";
+"CreateAccountView.FieldTitle.EmailAddress" = "Email Address";
+"CreateAccountView.FieldPlaceholder.EmailAddress" = "Enter Email Address";
+
+"CreateAccountView.FieldTitle.PhoneNumber" = "Mobile Number";
+"CreateAccountView.FieldPlaceholder.PhoneNumber" = "Add Mobile Number";
+
+"CreateAccountView.FieldTitle.Password" = "Password";
+"CreateAccountView.FieldPlaceholder.Password" = "Enter Password";
+
+"CreateAccountView.Button.CreateAccount" = "Create Account";
+
+
 // MARK:  - Sign In Page
 "SignInView.Label.SignIntoYourAccount" = "Sign Into Your Account";
 
 "SignInView.Label.DontHaveAnAccount" = "Don't have an account?";
-"SignInView.Label.CreateAccount" = "Create Account";
+"SignInView.Label.CreateAccount" = "CREATE ACCOUNT";
 
 "SignInView.FieldTitle.EmailAddress" = "Email Address";
 "SignInView.FieldPlaceHolder.EmailAddress" = "Enter Your Email Address";
