@@ -14,7 +14,7 @@ public struct Typography {
     static let Inter = "Inter"
     public var headingLarge: Font { header(size: 20).weight(.semibold)}
     
-    public var caption: Font { body(size: 16).weight(.bold) }
+    public var caption: Font { body(size: 12).weight(.bold) }
     
     public var displayMedium: Font { header(size: 26).weight(.regular)}
     
