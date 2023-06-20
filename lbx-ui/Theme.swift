@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 class Theme {
-    var colors = Colors() 
+    var colors = Colors()
     let icons: Icons = Icons()
     let typography: Typography = Typography() 
 }

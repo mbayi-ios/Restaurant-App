@@ -16,9 +16,17 @@ public struct Typography {
     
     public var caption: Font { body(size: 16).weight(.bold) }
     
+    public var displayMedium: Font { header(size: 26).weight(.regular)}
+    
+    public var buttonLinkBold: Font { body(size: 12).weight(.bold)}
+    
+    public var headingSmall: Font { header(size: 16).weight(.semibold)}
+    
     public var body: Font { body(size: 14)}
     
     public var button: Font { body(size: 16).weight(.bold)}
+    
+    public var buttonLink: Font {body(size: 12)}
     
     private var headerFontName: String? {
         return Config.shared.headerFontName

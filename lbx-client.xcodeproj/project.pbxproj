@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20742A41C88500B01456 /* SecureFormField.swift */; };
 		CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */; };
 		CD2926022A40AC7400565D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926012A40AC7400565D2A /* ContentView.swift */; };
 		CD2926042A40AC7500565D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2926032A40AC7500565D2A /* Assets.xcassets */; };
@@ -22,9 +23,13 @@
 		CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */; };
 		CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926312A40C2FF00565D2A /* ButtonStyles.swift */; };
 		CD2926352A40D48900565D2A /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926342A40D48900565D2A /* SplashView.swift */; };
+		CD2926382A40D79500565D2A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926372A40D79500565D2A /* SignInView.swift */; };
+		CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926392A40DE3C00565D2A /* FormField.swift */; };
+		CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29263E2A40EA6C00565D2A /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0A20742A41C88500B01456 /* SecureFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFormField.swift; sourceTree = "<group>"; };
 		CD2925FC2A40AC7400565D2A /* lbx-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lbx-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lbx_clientApp.swift; sourceTree = "<group>"; };
 		CD2926012A40AC7400565D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfiguration.swift; sourceTree = "<group>"; };
 		CD2926312A40C2FF00565D2A /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		CD2926342A40D48900565D2A /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		CD2926372A40D79500565D2A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		CD2926392A40DE3C00565D2A /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
+		CD29263E2A40EA6C00565D2A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,8 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD29263B2A40EA3F00565D2A /* System */,
+				CD2926362A40D74400565D2A /* SignIn */,
 				CD2926332A40D31F00565D2A /* Splash */,
 				CD29262D2A40BB8400565D2A /* Models */,
 				CD2926282A40B51300565D2A /* Config */,
@@ -108,33 +118,9 @@
 		CD29260E2A40ACB100565D2A /* WalkthroughNotification */ = {
 			isa = PBXGroup;
 			children = (
-				CD2926112A40ACD500565D2A /* WalkthroughNotificationModel */,
-				CD2926102A40ACCA00565D2A /* WalkthroughNotificationViewModel */,
-				CD29260F2A40ACBF00565D2A /* WalkthroughNotificationView */,
-			);
-			path = WalkthroughNotification;
-			sourceTree = "<group>";
-		};
-		CD29260F2A40ACBF00565D2A /* WalkthroughNotificationView */ = {
-			isa = PBXGroup;
-			children = (
 				CD2926122A40AD0000565D2A /* WalkthroughNotificationView.swift */,
 			);
-			path = WalkthroughNotificationView;
-			sourceTree = "<group>";
-		};
-		CD2926102A40ACCA00565D2A /* WalkthroughNotificationViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WalkthroughNotificationViewModel;
-			sourceTree = "<group>";
-		};
-		CD2926112A40ACD500565D2A /* WalkthroughNotificationModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = WalkthroughNotificationModel;
+			path = WalkthroughNotification;
 			sourceTree = "<group>";
 		};
 		CD2926142A40AD7900565D2A /* lbx-ui */ = {
@@ -163,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				CD29261C2A40B0BF00565D2A /* AutoSizeText.swift */,
+				CD2926392A40DE3C00565D2A /* FormField.swift */,
+				CD0A20742A41C88500B01456 /* SecureFormField.swift */,
 			);
 			path = Molecules;
 			sourceTree = "<group>";
@@ -208,6 +196,30 @@
 				CD2926342A40D48900565D2A /* SplashView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		CD2926362A40D74400565D2A /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CD2926372A40D79500565D2A /* SignInView.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		CD29263B2A40EA3F00565D2A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				CD29263C2A40EA4A00565D2A /* Extensions */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		CD29263C2A40EA4A00565D2A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD29263E2A40EA6C00565D2A /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */,
 				CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
@@ -290,9 +303,12 @@
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
+				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
+				CD2926382A40D79500565D2A /* SignInView.swift in Sources */,
+				CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

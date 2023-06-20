@@ -9,8 +9,14 @@ import Foundation
 import SwiftUI
 
 struct Icons {
+    let system = System()
     let base = Base()
     let walkthrough = Walkthrough()
+    
+    struct System {
+        let eyeFill = Image(systemName: "eye.fill")
+        let eyeSlashFill = Image(systemName: "eye.slash.fill")
+    }
     
     struct Walkthrough {
         let notifications = Image("WalkthroughNotifications")

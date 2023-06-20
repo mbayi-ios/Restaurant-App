@@ -20,8 +20,23 @@ extension Button {
     func subduedOnPrimary() -> some View {
         buttonStyle(BorderedFilled(.subduedOnPrimary))
     }
+    
+    func link() -> some View {
+        buttonStyle(Link(isBold: false))
+    }
 }
 
+private struct Link: ButtonStyle {
+    @Environment(\.theme) var theme: Theme
+    
+    let isBold: Bool
+    
+    func makeBody(configuration: Configuration) -> some View {
+        return configuration.label
+            .foregroundColor(theme.colors.actionPrimary)
+            .font(isBold ? theme.typography.buttonLinkBold : theme.typography.buttonLink)
+    }
+}
 
 private struct BorderedFilled: ButtonStyle {
     @Environment(\.theme) var theme: Theme

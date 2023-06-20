@@ -3,3 +3,26 @@
 "Walkthrough.Label.TurnOnNotification" = "Be the first to know about discounts, giveaways & exclusive menu items";
 "Walkthrough.Label.EnableNotifications" = "Enable Notifications";
 "Walkthrough.Label.SkipForNow" = "Skip Now";
+
+// MARK:  - Sign In Page
+"SignInView.Label.SignIntoYourAccount" = "Sign Into Your Account";
+
+"SignInView.Label.DontHaveAnAccount" = "Don't have an account?";
+"SignInView.Label.CreateAccount" = "Create Account";
+
+"SignInView.FieldTitle.EmailAddress" = "Email Address";
+"SignInView.FieldPlaceHolder.EmailAddress" = "Enter Your Email Address";
+"SignInView.FieldPlaceholder.Password" = "Enter Password";
+"SignInView.FieldTitle.Password" = "Password";
+"SignInView.Button.ForgotPassword" = "Forgot Password?";
+
+"SignInView.Button.SignIn" = "Sign In";
+
+// MARK: - Terms of Service Page
+"TermsOfService.Label.SigningIn" = "By Signing in to an account, you agree to";
+"TermsOfService.Label.CreatingAnAccount" = "By creating an account, you agree to";
+"TermsOfService.Label.Lunchboxs" = "Lunchbbox's";
+"TermsOfService.Button.TermsOfServices" = "Terms of Service";
+"TermsOfService.Label.And" = "&";
+"TermsOfService.Button.TermsOfService" = "Terms of Service";
+"TermsOfService.Button.PrivacyPolicy" = "Privacy Policy";

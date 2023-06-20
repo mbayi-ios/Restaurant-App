@@ -12,6 +12,7 @@ struct lbx_clientApp: App {
     var body: some Scene {
         WindowGroup {
             WalkthroughNotificationView()
+            //SignInView(email: "hell")
         }
     }
 }
