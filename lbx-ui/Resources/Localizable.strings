@@ -76,3 +76,11 @@
 
 // MARK: - Home Page
 "HomePage.Action.StartOrder" = "Start Order";
+
+// MARK: - Forgot Password Page
+
+"ForgotPassword.Label.ForgotPassword" = "Forgot Password?";
+"ForgotPassword.Label.PleaseEnterEmail" = "Please enter the email address associated with your accoun to reset your password";
+"ForgotPassword.FieldTitle.EmailAddress" = "Email Address";
+"ForgotPassword.FieldPlaceholder.EmailAddress" = "Enter Email Address";
+"ForgotPassword.Label.ResetPassword" = "Reset Password";
