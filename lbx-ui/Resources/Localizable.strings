@@ -67,3 +67,10 @@
 "TermsOfService.Label.And" = "&";
 "TermsOfService.Button.TermsOfService" = "Terms of Service";
 "TermsOfService.Button.PrivacyPolicy" = "Privacy Policy";
+
+
+// MARK: - Account Page
+"Account.Action.Login" = "Log In";
+
+// MARK: - Home Page
+"HomePage.Action.StartOrder" = "Start Order";

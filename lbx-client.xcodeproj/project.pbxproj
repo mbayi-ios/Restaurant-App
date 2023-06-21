@@ -13,6 +13,8 @@
 		CD0A20802A42319F00B01456 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A207F2A42319F00B01456 /* HomeView.swift */; };
 		CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20822A4231CB00B01456 /* HomeCarouselView.swift */; };
 		CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20852A42424500B01456 /* ProfilePageView.swift */; };
+		CD0A20882A433D0200B01456 /* HomeHubContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20872A433D0200B01456 /* HomeHubContentView.swift */; };
+		CD0A208A2A433FA600B01456 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20892A433FA600B01456 /* View+Extensions.swift */; };
 		CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */; };
 		CD2926022A40AC7400565D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926012A40AC7400565D2A /* ContentView.swift */; };
 		CD2926042A40AC7500565D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2926032A40AC7500565D2A /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 		CD0A207F2A42319F00B01456 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CD0A20822A4231CB00B01456 /* HomeCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCarouselView.swift; sourceTree = "<group>"; };
 		CD0A20852A42424500B01456 /* ProfilePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageView.swift; sourceTree = "<group>"; };
+		CD0A20872A433D0200B01456 /* HomeHubContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHubContentView.swift; sourceTree = "<group>"; };
+		CD0A20892A433FA600B01456 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		CD2925FC2A40AC7400565D2A /* lbx-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lbx-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lbx_clientApp.swift; sourceTree = "<group>"; };
 		CD2926012A40AC7400565D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 		CD0A207E2A42318C00B01456 /* HomeHubContent */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A20872A433D0200B01456 /* HomeHubContentView.swift */,
 			);
 			path = HomeHubContent;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXGroup;
 			children = (
 				CD29263E2A40EA6C00565D2A /* String+Extensions.swift */,
+				CD0A20892A433FA600B01456 /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -366,9 +372,11 @@
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
 				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
+				CD0A208A2A433FA600B01456 /* View+Extensions.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
 				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
+				CD0A20882A433D0200B01456 /* HomeHubContentView.swift in Sources */,
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
 				CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */,

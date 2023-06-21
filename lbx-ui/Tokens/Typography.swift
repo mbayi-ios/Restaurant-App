@@ -20,6 +20,8 @@ public struct Typography {
     
     public var buttonLinkBold: Font { body(size: 12).weight(.bold)}
     
+    public var headingMedium: Font { header(size: 20).weight(.semibold)}
+    
     public var headingSmall: Font { header(size: 16).weight(.semibold) }
     
     public var body: Font { body(size: 14)}
@@ -27,6 +29,8 @@ public struct Typography {
     public var button: Font { body(size: 16).weight(.bold)}
     
     public var buttonLink: Font { body(size: 12) }
+    
+    public var subheading: Font { header(size: 12).weight(.semibold)}
     
     private var headerFontName: String? {
         return Config.shared.headerFontName

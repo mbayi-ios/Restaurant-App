@@ -8,8 +8,64 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Environment(\.theme) var theme
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            VStack {
+                ScrollView {
+                    HomeCarouselView()
+                    VStack {
+                        Button {
+                            
+                        } label: {
+                            Text(String(localized: "HomePage.Action.StartOrder"))
+                        }
+                        .primary()
+                        .padding(10)
+
+                    }
+                    HomeHubContentView()
+                    HomeHubContentView()
+                    HomeHubContentView()
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    Spacer()
+                }
+                ToolbarItem(placement: .principal) {
+                    theme.icons.base.logo
+                        .resizable()
+                        .scaledToFit()
+                        .padding(8)
+                        //.offset()
+                }
+                
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    signInButton()
+                }
+                
+            }
+           
+        }
+    }
+    
+    private func navBarLogo() -> some View {
+        HStack {
+            theme.icons.base.brand
+        }
+    }
+    
+    private func signInButton() -> some View {
+        NavigationLink(destination: SignInView()){
+            HStack {
+                Text(String(localized: "Account.Action.Login"))
+                    .font(theme.typography.body)
+                    .tint(theme.colors.textOnSurfaceDefault)
+            }
+        }
+        
     }
 }
 

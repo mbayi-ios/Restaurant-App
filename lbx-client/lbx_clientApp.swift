@@ -14,7 +14,8 @@ struct lbx_clientApp: App {
             //WalkthroughNotificationView()
             //SignInView(email: "email", password: "xxx")
             //CreateAccountView()
-            ProfilePageView()
+            //ProfilePageView()
+            HomeView()
         }
     }
 }

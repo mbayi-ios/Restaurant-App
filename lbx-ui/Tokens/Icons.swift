@@ -24,5 +24,6 @@ struct Icons {
     
     struct Base {
         let brand = Image("Brand")
+        let logo = Image("logo")
     }
 }

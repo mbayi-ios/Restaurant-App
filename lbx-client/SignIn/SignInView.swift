@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct SignInView: View {
-    @State var email: String
-    @State var password: String
+    @State var email: String = "ambymbayi54@gmail.com"
+    @State var password: String = "19283"
     
     @Environment(\.theme) var theme: Theme
     var body: some View {

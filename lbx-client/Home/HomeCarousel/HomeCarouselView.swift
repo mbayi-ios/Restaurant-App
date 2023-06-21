@@ -13,12 +13,27 @@ struct HomeCarouselView: View {
     @State private var currentIndex = 0
     private let frameHeight = 475.0
     
+    private let images = ["home-1", "home-2", "home-3"]
+    
     var body: some View {
-        theme.icons.base.brand
-            .resizable()
-            .scaledToFit()
-            .padding()
-            .frame(height: frameHeight)
+//        theme.icons.base.brand
+//            .resizable()
+//            .scaledToFit()
+//            .padding()
+//            .frame(height: frameHeight)
+        
+        TabView {
+            ForEach(images, id: \.self) { item in
+                Image(item)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .scaledToFill()
+                    .clipped()
+            }
+            .frame(maxWidth: .infinity, maxHeight: frameHeight)
+        }
+        .tabViewStyle(PageTabViewStyle())
+        .frame(height: frameHeight)
     }
 }
 
