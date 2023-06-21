@@ -71,6 +71,8 @@
 
 // MARK: - Account Page
 "Account.Action.Login" = "Log In";
+"AccountPageView.Action.TermsPrivacyPolicy" = "Terms & Privacy Policy";
+"AccountPageView.Action.LogoutCaps" = "LOGOUT";
 
 // MARK: - Home Page
 "HomePage.Action.StartOrder" = "Start Order";
