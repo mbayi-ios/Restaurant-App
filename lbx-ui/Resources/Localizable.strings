@@ -84,3 +84,15 @@
 "ForgotPassword.FieldTitle.EmailAddress" = "Email Address";
 "ForgotPassword.FieldPlaceholder.EmailAddress" = "Enter Email Address";
 "ForgotPassword.Label.ResetPassword" = "Reset Password";
+
+// MARK: - Manage Cards
+"CardSummaryCell.Label.Add" = "Add Payment Method";
+"CardSummaryCell.Label.Delete" = "DELETE";
+
+"AddCardPage.Label.Add" = "Add";
+"AddCardPage.Label.Edit" = "Edit";
+"AddCardPage.FormTitle.FirstName" = "First Name";
+
+"AddCardPage.FormTitle.Zip" = "Zip";
+"AddCardPage.FormPlaceholder.Zip" = "90921";
+

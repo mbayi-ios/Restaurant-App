@@ -16,7 +16,8 @@ struct lbx_clientApp: App {
             //CreateAccountView()
             //ProfilePageView()
             //HomeView()
-            AccountPageView()
+            //AccountPageView()
+            ManageCardsPageView()
         }
     }
 }
