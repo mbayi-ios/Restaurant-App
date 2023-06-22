@@ -1,0 +1,39 @@
+//
+//  GlobalEnvironment.xcconfig
+//  lbx-client
+//
+//  Created by Ambrose Mbayi on 22/06/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// MARK: - Global Properties
+
+// Default tracking usage privary description, for analytics services
+PRIVACY_TRACKING_USAGE = This identifier will be used to deliver personalized promotions to you.
+
+// Default locaiton usage description, used to find locaitons near you
+PRIVACY_LOCATION_WHEN_IN_USE = Would you like to enable your location services to help us find a locaiton near you?
+
+// Appearence for Light and Dark modes (values: "Light", "Dark", "Automatic")
+APPEARENCE = Light
+
+// Build number for the app that should be consistent across all clients.
+// This way, we can know what features / fixes that the app is running consistently.
+// We should update this number with every merge to `main`.
+BUILD_NUMBER = 94
+
+
+// URL used to make API Requests
+HOST_URL = novadine.com
+
+// Build version is set automatically by lb-build to the next available build number
+MARKETING_VERSION = 1.0
+
+/// Fonts
+HEADER_FONT_FILE_NAME = Inter.ttf
+BODY_FONT_FILE_NAME = Inter.ttf
+
+HEADER_FONT_NAME = Inter
+BODY_FONT_NAME = Inter

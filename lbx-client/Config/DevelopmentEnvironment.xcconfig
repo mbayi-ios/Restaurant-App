@@ -1,0 +1,50 @@
+//
+//  DevelopmentEnvironment.xcconfig
+//  lbx-client
+//
+//  Created by Ambrose Mbayi on 22/06/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "GlobalEnvironment.xcconfig"
+#include "Client.xcconfig"
+
+// MARK: - Lunchbox Environment Properties
+
+/// Identifier of the environment
+ENVIRONMENT = development
+
+/// URUL used to make API Requests
+HOST_URL = novadine.com
+
+/// The configuration still comes from BFF
+BFF_HOST_URL = lbapi.lunchbox.io
+
+/// Prefix used on Bundle Display Name to differentiate between environments
+BUNDLE_DISPLAY_PREFIX = D-
+
+/// Suffix used on Bundle Display Identifier to differentiate between environments
+BUNDLE_IDENTIFIER_SUFFIX = .dev
+
+/// Environment for Apple push notifications
+APS_ENVIRONMENT = development
+
+/// API Key for Google SDK
+// GOOGLE_API_KEY =
+
+/// Sentry DSN
+SENTRY_DSN = 448ec0a17614407888bb6b340e74f842@o360216.ingest.sentry.io/6751809
+
+/// Sentry Project
+// LUNCHBOX_SENTRY_PROJ =
+
+/// Sift Account Id
+SIFT_ACCOUNT_ID = 5e725422ef0a24efc56453cc
+
+/// Sift Beacon Key
+SIFT_BEACON_KEY = a066987159
+
+/// The key we send with any Novadine API calls.
+NOVADINE_API_KEY = 3011c280-5c80-11ed-99ec-f23c918b87aa

@@ -1,0 +1,18 @@
+//
+//  Client.xcconfig
+//  lbx-client
+//
+//  Created by Ambrose Mbayi on 22/06/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//added from theme endpoint
+HOST_URL = novadine.com
+BUNDLE_IDENTIFIER = com.lunchboxdemo.app
+BUNDLE_DISPLAY_NAME = PG Test
+TENANT = pgtest
+
+//added by incrementVersion
+MARKETING_VERSION = 1.1.0

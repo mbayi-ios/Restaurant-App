@@ -2,10 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Header Font Name</key>
+	<string>$(HEADER_FONT_NAME)</string>
+	<key>Body Font Name</key>
+	<string>$(BODY_FONT_NAME)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>maps</string>
+		<string>comgooglemaps</string>
+	</array>
+	<key>Tenant</key>
+	<string>$(TENANT)</string>
+	<key>Novadine API Key</key>
+	<string>$(NOVADINE_API_KEY)</string>
+	<key>BFF Host URL</key>
+	<string>$(BFF_HOST_URL)</string>
+	<key>Host URL</key>
+	<string>$(HOST_URL)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Inter.ttf</string>
-		<string></string>
+		<string>$(HEADER_FONT_FILE_NAME)</string>
+		<string>$(BODY_FONT_FILE_NAME)</string>
 	</array>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We may use your data to track how you use the app to amke improvements to the app</string>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>Brand</string>
+	</dict>
 </dict>
 </plist>

@@ -1,0 +1,38 @@
+//
+//  MockEnvironment.xcconfig
+//  lbx-client
+//
+//  Created by Ambrose Mbayi on 22/06/2023.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "GlobalEnvironment.xcconfig"
+#include "Client.xcconfig"
+
+// MARK: - Environment Properties
+
+// Identifier of the Environment
+ENVIRONMENT = mock
+
+/// URL used to make API Requests
+HOST_URL = c34ace47-901b-40dd-b937-9c555ad881cd.mock.pstmn.io
+
+/// Prefix used to Bundle Display Name to differentiate between environments
+BUNDLE_DISPLAY_PREFIX = M-
+
+/// Suffix used on Bundle Display Identifier to differentiate between environments
+BUNDLE_IDENTIFIER_SUFFIX = .mock
+
+/// Environment for Apple push notifications
+APS_ENVIRONMENT = development
+
+/// Sift Account Id
+SIFT_ACCOUNT_ID = 5e725422ef0a24efc56453cc
+
+/// Sift Beacon Key
+SIFT_BEACON_KEY = a066987159
+
+/// The key we send with any Novadine API calls.
+NOVADINE_API_KEY = 3011c280-5c80-11ed-99ec-f23c918b87aa
