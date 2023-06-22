@@ -21,6 +21,7 @@
 		CD0A20952A44272600B01456 /* ManageCardsPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20942A44272600B01456 /* ManageCardsPageView.swift */; };
 		CD0A20972A44273800B01456 /* CardSummaryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20962A44273800B01456 /* CardSummaryCellView.swift */; };
 		CD0A209A2A4430AB00B01456 /* AddCardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20992A4430AB00B01456 /* AddCardPageView.swift */; };
+		CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A209D2A443B4300B01456 /* MenuItemCell.swift */; };
 		CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */; };
 		CD2926022A40AC7400565D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926012A40AC7400565D2A /* ContentView.swift */; };
 		CD2926042A40AC7500565D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2926032A40AC7500565D2A /* Assets.xcassets */; };
@@ -43,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		CD0A20742A41C88500B01456 /* SecureFormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFormField.swift; sourceTree = "<group>"; };
-		CD0A20762A41EDE400B01456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CD0A20762A41EDE400B01456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD0A20782A41EEEA00B01456 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		CD0A207A2A4229E600B01456 /* TermsOfServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsOfServiceView.swift; sourceTree = "<group>"; };
 		CD0A207F2A42319F00B01456 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		CD0A20942A44272600B01456 /* ManageCardsPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCardsPageView.swift; sourceTree = "<group>"; };
 		CD0A20962A44273800B01456 /* CardSummaryCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSummaryCellView.swift; sourceTree = "<group>"; };
 		CD0A20992A4430AB00B01456 /* AddCardPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardPageView.swift; sourceTree = "<group>"; };
+		CD0A209D2A443B4300B01456 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
 		CD2925FC2A40AC7400565D2A /* lbx-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lbx-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lbx_clientApp.swift; sourceTree = "<group>"; };
 		CD2926012A40AC7400565D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -176,6 +178,22 @@
 			path = "Add Card";
 			sourceTree = "<group>";
 		};
+		CD0A209B2A443B2200B01456 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A209C2A443B2900B01456 /* MenuCategoryView */,
+				CD0A209D2A443B4300B01456 /* MenuItemCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CD0A209C2A443B2900B01456 /* MenuCategoryView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MenuCategoryView;
+			sourceTree = "<group>";
+		};
 		CD2925F32A40AC7400565D2A = {
 			isa = PBXGroup;
 			children = (
@@ -196,10 +214,10 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A209B2A443B2200B01456 /* Menu */,
 				CD0A20932A44271600B01456 /* Manage Cards */,
 				CD0A208E2A4361E100B01456 /* ForgotPassword */,
 				CD0A208B2A4358EC00B01456 /* Account */,
-				CD0A20762A41EDE400B01456 /* Info.plist */,
 				CD0A20842A42423700B01456 /* Profile */,
 				CD0A207C2A42317200B01456 /* Home */,
 				CD0A20772A41EEDC00B01456 /* CreateAccount */,
@@ -288,6 +306,7 @@
 		CD2926282A40B51300565D2A /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A20762A41EDE400B01456 /* Info.plist */,
 				CD2926292A40B51F00565D2A /* Config.swift */,
 			);
 			path = Config;
@@ -417,6 +436,7 @@
 				CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */,
 				CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
+				CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */,
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
 				CD2926022A40AC7400565D2A /* ContentView.swift in Sources */,
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
@@ -574,7 +594,7 @@
 				DEVELOPMENT_TEAM = AST77APB2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "lbx-client/Info.plist";
+				INFOPLIST_FILE = "lbx-client/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -604,7 +624,7 @@
 				DEVELOPMENT_TEAM = AST77APB2R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "lbx-client/Info.plist";
+				INFOPLIST_FILE = "lbx-client/Config/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
