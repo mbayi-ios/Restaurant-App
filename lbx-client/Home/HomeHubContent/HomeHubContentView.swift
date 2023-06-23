@@ -9,9 +9,21 @@ import SwiftUI
 
 struct HomeHubContentView: View {
     @Environment(\.theme) var theme
+
+    private var title: String? = "Hello Pizza One"
+    private var description: String? = "Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various"
     
-    private var title: String = "Hello Pizza One"
-    private var description: String = "Pizza is a dish of Italian origin consisting of a usually round, flat base of leavened wheat-based dough topped with tomatoes, cheese, and often various"
+    private var imageUrl: String? = ""
+    private var buttonText: String? = ""
+    private var buttonUrlString: String? = ""
+    
+    init(hubMarketing: ThemeConfiguration.Settings.HubMarketing) {
+        title = hubMarketing.title
+        description = hubMarketing.description
+        imageUrl = hubMarketing.image
+        buttonText = hubMarketing.buttonText
+        buttonUrlString = hubMarketing.buttonURL
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -20,12 +32,12 @@ struct HomeHubContentView: View {
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(10, corners: [.topLeft, .topRight])
             
-            Text(title)
+            Text(title!)
                 .font(theme.typography.headingMedium)
                 .padding(.leading)
                 .padding(.trailing)
             
-            Text(description)
+            Text(description!)
                 .font(theme.typography.subheading)
                 .foregroundColor(theme.colors.textSubdued)
                 .padding(.leading)
@@ -48,6 +60,6 @@ struct HomeHubContentView: View {
 
 struct HomeHubContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeHubContentView()
+        HomeHubContentView(hubMarketing: .init(image: "", title: "", buttonURL: "", buttonText: "", description: ""))
     }
 }

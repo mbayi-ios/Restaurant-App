@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @Environment(\.theme) var theme
+   // @Environment(\.dependencies.state.themeConfigurationState.themeConfiguration?.settings?.hubMarketing) var hubMarketing
     var body: some View {
         NavigationView {
             VStack {
@@ -24,9 +25,9 @@ struct HomeView: View {
                         .padding(10)
 
                     }
-                    HomeHubContentView()
-                    HomeHubContentView()
-                    HomeHubContentView()
+                    //HomeHubContentView()
+                    //HomeHubContentView()
+                    //HomeHubContentView()
                 }
             }
             .navigationBarTitleDisplayMode(.inline)

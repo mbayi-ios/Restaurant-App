@@ -22,6 +22,8 @@
 		CD0A20972A44273800B01456 /* CardSummaryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20962A44273800B01456 /* CardSummaryCellView.swift */; };
 		CD0A209A2A4430AB00B01456 /* AddCardPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20992A4430AB00B01456 /* AddCardPageView.swift */; };
 		CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A209D2A443B4300B01456 /* MenuItemCell.swift */; };
+		CD0A20A62A44997800B01456 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20A52A44997800B01456 /* AppState.swift */; };
+		CD0A20A82A4499B500B01456 /* ThemeConfigurationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0A20A72A4499B500B01456 /* ThemeConfigurationState.swift */; };
 		CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */; };
 		CD2926022A40AC7400565D2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926012A40AC7400565D2A /* ContentView.swift */; };
 		CD2926042A40AC7500565D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2926032A40AC7500565D2A /* Assets.xcassets */; };
@@ -64,6 +66,8 @@
 		CD0A20A12A448B8B00B01456 /* DevelopmentEnvironment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DevelopmentEnvironment.xcconfig; sourceTree = "<group>"; };
 		CD0A20A22A448B9B00B01456 /* ProductionEnvironment.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ProductionEnvironment.xcconfig; sourceTree = "<group>"; };
 		CD0A20A32A448BB200B01456 /* Client.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Client.xcconfig; sourceTree = "<group>"; };
+		CD0A20A52A44997800B01456 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		CD0A20A72A4499B500B01456 /* ThemeConfigurationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfigurationState.swift; sourceTree = "<group>"; };
 		CD2925FC2A40AC7400565D2A /* lbx-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lbx-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2925FF2A40AC7400565D2A /* lbx_clientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lbx_clientApp.swift; sourceTree = "<group>"; };
 		CD2926012A40AC7400565D2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +201,15 @@
 			children = (
 			);
 			path = MenuCategoryView;
+			sourceTree = "<group>";
+		};
+		CD0A20A42A44996500B01456 /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				CD0A20A52A44997800B01456 /* AppState.swift */,
+				CD0A20A72A4499B500B01456 /* ThemeConfigurationState.swift */,
+			);
+			path = AppState;
 			sourceTree = "<group>";
 		};
 		CD2925F32A40AC7400565D2A = {
@@ -358,6 +371,7 @@
 		CD29263B2A40EA3F00565D2A /* System */ = {
 			isa = PBXGroup;
 			children = (
+				CD0A20A42A44996500B01456 /* AppState */,
 				CD29263C2A40EA4A00565D2A /* Extensions */,
 			);
 			path = System;
@@ -447,6 +461,7 @@
 				CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
 				CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */,
+				CD0A20A82A4499B500B01456 /* ThemeConfigurationState.swift in Sources */,
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
 				CD2926022A40AC7400565D2A /* ContentView.swift in Sources */,
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
@@ -456,6 +471,7 @@
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
 				CD0A20972A44273800B01456 /* CardSummaryCellView.swift in Sources */,
+				CD0A20A62A44997800B01456 /* AppState.swift in Sources */,
 				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
 				CD0A209A2A4430AB00B01456 /* AddCardPageView.swift in Sources */,
 				CD0A20882A433D0200B01456 /* HomeHubContentView.swift in Sources */,

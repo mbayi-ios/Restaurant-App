@@ -18,8 +18,27 @@ struct ThemeConfiguration {
         }
         
         let themeColors: ThemeColors?
+        
+        struct HubMarketing: Codable, Equatable {
+            let image: String?
+            let title: String?
+            let buttonURL: String?
+            let buttonText: String?
+            let description: String?
+        }
+        
+        struct HomeCarousel: Codable, Equatable {
+            let imageUrl: String?
+        }
+        
+        let homeCarousel: [HomeCarousel]?
+        let hubMarketing: [HubMarketing]?
+    }
+    var id: String {
+        return tenantId
     }
     
+    let tenantId: String
     let settings: Settings?
                     
 }
