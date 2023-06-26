@@ -96,3 +96,12 @@
 "AddCardPage.FormTitle.Zip" = "Zip";
 "AddCardPage.FormPlaceholder.Zip" = "90921";
 
+// MARK: - Validator
+"Validator.Reason.Empty" = "cannot be empty";
+"Validator.Reason.SixCharacters" = "must be at least 6 characters";
+"Validator.Reason.EightCharacters" = "must be at least 8 characters";
+"Validator.Reason.UppercaseCharacter" = "must contain at least 1 uppercase letter";
+"Validator.Reason.NumberCharacter" = "must contain at least 1 number";
+"Validator.Reason.SpecialCharacter" = "must contain at least 1 special character";
+"Validator.Reason.phoneNumberLength" = "is an invalid length";
+"Validator.Reason.EmailFormat" = "must be a valid email";

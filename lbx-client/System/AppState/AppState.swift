@@ -8,5 +8,6 @@
 import Foundation
 
 struct AppState {
-    let themeConfigurationState: ThemeConfigurationState
+    let themeConfigurationStore: ThemeConfigurationStore
+    let sessionStore: SessionStore 
 }

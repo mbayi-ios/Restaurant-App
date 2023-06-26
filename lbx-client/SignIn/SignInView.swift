@@ -8,10 +8,15 @@
 import SwiftUI
 
 struct SignInView: View {
-    @State var email: String = "ambymbayi54@gmail.com"
-    @State var password: String = "19283"
+    @State var email: String = ""
+    @State var password: String = ""
     
     @Environment(\.theme) var theme: Theme
+    @Environment(\.dismiss) var dismiss
+    
+    var isSignInRootView: Bool = false
+    
+   
     var body: some View {
         NavigationView {
             VStack {
@@ -138,6 +143,7 @@ struct SignInView: View {
             }
         }
     }
+    
 }
 
 struct SignInView_Previews: PreviewProvider {

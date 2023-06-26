@@ -33,5 +33,18 @@ extension String {
         }
         return(result, numbers)
     }
+    
+    func extractJSONError() -> String {
+        let stringData = Data(self.utf8)
+        let decoder = JSONDecoder()
+        if let stringObject = try? decoder.decode(JSONErrorMessage.self, from: stringData) {
+            return stringObject.error
+        }
+        
+        return self
+    }
+}
 
+private struct JSONErrorMessage: Decodable {
+    let error: String
 }

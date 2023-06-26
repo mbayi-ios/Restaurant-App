@@ -8,9 +8,9 @@
 import Foundation
 import SwiftUI
 
-struct ThemeConfiguration {
-    struct Settings {
-        struct ThemeColors {
+struct ThemeConfiguration: Codable, Identifiable, Equatable {
+    struct Settings: Codable, Equatable {
+        struct ThemeColors: Codable, Equatable {
             let brand: String?
             let brandContrast: String?
             let accent: String?

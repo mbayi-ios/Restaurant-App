@@ -42,6 +42,42 @@
 		CD2926382A40D79500565D2A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926372A40D79500565D2A /* SignInView.swift */; };
 		CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926392A40DE3C00565D2A /* FormField.swift */; };
 		CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29263E2A40EA6C00565D2A /* String+Extensions.swift */; };
+		CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */; };
+		CD5C8ABE2A46075100EAFAB7 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */; };
+		CD5C8AC12A4607E300EAFAB7 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */; };
+		CD5C8AC42A46082500EAFAB7 /* ValidationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC32A46082500EAFAB7 /* ValidationForm.swift */; };
+		CD5C8AC62A46084200EAFAB7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC52A46084200EAFAB7 /* Validator.swift */; };
+		CD5C8AC92A4608EC00EAFAB7 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC82A4608EC00EAFAB7 /* ValidationType.swift */; };
+		CD5C8ACB2A46090100EAFAB7 /* ValidationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ACA2A46090100EAFAB7 /* ValidationOption.swift */; };
+		CD5C8ACD2A46091400EAFAB7 /* ValidatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ACC2A46091400EAFAB7 /* ValidatorOptions.swift */; };
+		CD5C8AD02A46136500EAFAB7 /* EmptyValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ACF2A46136500EAFAB7 /* EmptyValidator.swift */; };
+		CD5C8AD22A461E4600EAFAB7 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AD12A461E4600EAFAB7 /* ViewModelProtocol.swift */; };
+		CD6643892A49B8F400288F19 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643882A49B8F400288F19 /* DependencyContainer.swift */; };
+		CD66438C2A49BA6400288F19 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66438B2A49BA6400288F19 /* Tasks.swift */; };
+		CD66438F2A49BA9F00288F19 /* Repositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66438E2A49BA9F00288F19 /* Repositories.swift */; };
+		CD6643912A49BB4400288F19 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643902A49BB4400288F19 /* Repository.swift */; };
+		CD6643952A49BBDB00288F19 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643942A49BBDB00288F19 /* Task.swift */; };
+		CD6643982A49BC7600288F19 /* ThemeConfigurationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643972A49BC7600288F19 /* ThemeConfigurationStore.swift */; };
+		CD66439B2A49BF0E00288F19 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66439A2A49BF0E00288F19 /* SessionStore.swift */; };
+		CD66439D2A49C23000288F19 /* KeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66439C2A49C23000288F19 /* KeyStore.swift */; };
+		CD6643A12A49C59800288F19 /* DisplayAlertMessageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643A02A49C59800288F19 /* DisplayAlertMessageTask.swift */; };
+		CD6643A32A49C61700288F19 /* DisplayAlertMessageTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643A22A49C61700288F19 /* DisplayAlertMessageTaskModel.swift */; };
+		CD6643A62A49C74200288F19 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643A52A49C74200288F19 /* AlertMessage.swift */; };
+		CD6643A82A49C74C00288F19 /* AlertStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643A72A49C74C00288F19 /* AlertStyle.swift */; };
+		CD6643AA2A49C92A00288F19 /* AlertRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643A92A49C92A00288F19 /* AlertRepository.swift */; };
+		CD6643AC2A49CC3D00288F19 /* AlertStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643AB2A49CC3D00288F19 /* AlertStore.swift */; };
+		CD6643AE2A49CD1900288F19 /* DefaultKeyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643AD2A49CD1900288F19 /* DefaultKeyStore.swift */; };
+		CD6643B22A49D90B00288F19 /* SignInTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643B12A49D90B00288F19 /* SignInTask.swift */; };
+		CD6643B42A49D9C600288F19 /* SignInTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643B32A49D9C600288F19 /* SignInTaskModel.swift */; };
+		CD6643BB2A49DA5900288F19 /* PostSignInRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643BA2A49DA5900288F19 /* PostSignInRequest.swift */; };
+		CD6643BD2A49DB2F00288F19 /* PostSignInPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643BC2A49DB2F00288F19 /* PostSignInPayload.swift */; };
+		CD6643BF2A49DB3800288F19 /* PostSignInResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643BE2A49DB3800288F19 /* PostSignInResponse.swift */; };
+		CD6643C32A49DCA300288F19 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643C22A49DCA300288F19 /* HTTPRequest.swift */; };
+		CD6643C52A49DD7B00288F19 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643C42A49DD7B00288F19 /* HTTPMethod.swift */; };
+		CD6643C82A49DDB400288F19 /* HTTPEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643C72A49DDB400288F19 /* HTTPEndpoint.swift */; };
+		CD6643CA2A49DE6200288F19 /* NovadineEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643C92A49DE6200288F19 /* NovadineEndpoint.swift */; };
+		CD6643CC2A49E50E00288F19 /* CustomerRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643CB2A49E50E00288F19 /* CustomerRespository.swift */; };
+		CD6643CF2A49E5CC00288F19 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +126,42 @@
 		CD2926372A40D79500565D2A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CD2926392A40DE3C00565D2A /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		CD29263E2A40EA6C00565D2A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		CD5C8AC32A46082500EAFAB7 /* ValidationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationForm.swift; sourceTree = "<group>"; };
+		CD5C8AC52A46084200EAFAB7 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		CD5C8AC82A4608EC00EAFAB7 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
+		CD5C8ACA2A46090100EAFAB7 /* ValidationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationOption.swift; sourceTree = "<group>"; };
+		CD5C8ACC2A46091400EAFAB7 /* ValidatorOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorOptions.swift; sourceTree = "<group>"; };
+		CD5C8ACF2A46136500EAFAB7 /* EmptyValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyValidator.swift; sourceTree = "<group>"; };
+		CD5C8AD12A461E4600EAFAB7 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		CD6643882A49B8F400288F19 /* DependencyContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyContainer.swift; sourceTree = "<group>"; };
+		CD66438B2A49BA6400288F19 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		CD66438E2A49BA9F00288F19 /* Repositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repositories.swift; sourceTree = "<group>"; };
+		CD6643902A49BB4400288F19 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		CD6643942A49BBDB00288F19 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		CD6643972A49BC7600288F19 /* ThemeConfigurationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfigurationStore.swift; sourceTree = "<group>"; };
+		CD66439A2A49BF0E00288F19 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		CD66439C2A49C23000288F19 /* KeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStore.swift; sourceTree = "<group>"; };
+		CD6643A02A49C59800288F19 /* DisplayAlertMessageTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAlertMessageTask.swift; sourceTree = "<group>"; };
+		CD6643A22A49C61700288F19 /* DisplayAlertMessageTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayAlertMessageTaskModel.swift; sourceTree = "<group>"; };
+		CD6643A52A49C74200288F19 /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		CD6643A72A49C74C00288F19 /* AlertStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStyle.swift; sourceTree = "<group>"; };
+		CD6643A92A49C92A00288F19 /* AlertRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRepository.swift; sourceTree = "<group>"; };
+		CD6643AB2A49CC3D00288F19 /* AlertStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStore.swift; sourceTree = "<group>"; };
+		CD6643AD2A49CD1900288F19 /* DefaultKeyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKeyStore.swift; sourceTree = "<group>"; };
+		CD6643B12A49D90B00288F19 /* SignInTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTask.swift; sourceTree = "<group>"; };
+		CD6643B32A49D9C600288F19 /* SignInTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInTaskModel.swift; sourceTree = "<group>"; };
+		CD6643BA2A49DA5900288F19 /* PostSignInRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSignInRequest.swift; sourceTree = "<group>"; };
+		CD6643BC2A49DB2F00288F19 /* PostSignInPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSignInPayload.swift; sourceTree = "<group>"; };
+		CD6643BE2A49DB3800288F19 /* PostSignInResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSignInResponse.swift; sourceTree = "<group>"; };
+		CD6643C22A49DCA300288F19 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		CD6643C42A49DD7B00288F19 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CD6643C72A49DDB400288F19 /* HTTPEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPEndpoint.swift; sourceTree = "<group>"; };
+		CD6643C92A49DE6200288F19 /* NovadineEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovadineEndpoint.swift; sourceTree = "<group>"; };
+		CD6643CB2A49E50E00288F19 /* CustomerRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRespository.swift; sourceTree = "<group>"; };
+		CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +304,8 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643B52A49DA3400288F19 /* Network */,
+				CD5C8ABF2A4607D700EAFAB7 /* MVVM */,
 				CD0A209B2A443B2200B01456 /* Menu */,
 				CD0A20932A44271600B01456 /* Manage Cards */,
 				CD0A208E2A4361E100B01456 /* ForgotPassword */,
@@ -338,6 +412,7 @@
 		CD29262D2A40BB8400565D2A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643A42A49C73100288F19 /* Alert */,
 				CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */,
 			);
 			path = Models;
@@ -364,6 +439,8 @@
 			isa = PBXGroup;
 			children = (
 				CD2926372A40D79500565D2A /* SignInView.swift */,
+				CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */,
+				CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -371,8 +448,14 @@
 		CD29263B2A40EA3F00565D2A /* System */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643992A49BEE100288F19 /* New Group */,
+				CD6643962A49BC6900288F19 /* Stores */,
+				CD66438D2A49BA9100288F19 /* Repositories */,
+				CD66438A2A49BA5800288F19 /* Tasks */,
+				CD5C8AC22A46081300EAFAB7 /* Validator */,
 				CD0A20A42A44996500B01456 /* AppState */,
 				CD29263C2A40EA4A00565D2A /* Extensions */,
+				CD6643882A49B8F400288F19 /* DependencyContainer.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -384,6 +467,207 @@
 				CD0A20892A433FA600B01456 /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD5C8ABF2A4607D700EAFAB7 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */,
+				CD5C8AD12A461E4600EAFAB7 /* ViewModelProtocol.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CD5C8AC22A46081300EAFAB7 /* Validator */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C8ACE2A460FEE00EAFAB7 /* Validators */,
+				CD5C8AC72A4608D700EAFAB7 /* ValidatorOptions */,
+				CD5C8AC32A46082500EAFAB7 /* ValidationForm.swift */,
+				CD5C8AC52A46084200EAFAB7 /* Validator.swift */,
+			);
+			path = Validator;
+			sourceTree = "<group>";
+		};
+		CD5C8AC72A4608D700EAFAB7 /* ValidatorOptions */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C8AC82A4608EC00EAFAB7 /* ValidationType.swift */,
+				CD5C8ACA2A46090100EAFAB7 /* ValidationOption.swift */,
+				CD5C8ACC2A46091400EAFAB7 /* ValidatorOptions.swift */,
+			);
+			path = ValidatorOptions;
+			sourceTree = "<group>";
+		};
+		CD5C8ACE2A460FEE00EAFAB7 /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				CD5C8ACF2A46136500EAFAB7 /* EmptyValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		CD66438A2A49BA5800288F19 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643AF2A49D8F700288F19 /* Customer */,
+				CD66439E2A49C58000288F19 /* Alert */,
+				CD66438B2A49BA6400288F19 /* Tasks.swift */,
+				CD6643942A49BBDB00288F19 /* Task.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		CD66438D2A49BA9100288F19 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				CD66438E2A49BA9F00288F19 /* Repositories.swift */,
+				CD6643902A49BB4400288F19 /* Repository.swift */,
+				CD6643A92A49C92A00288F19 /* AlertRepository.swift */,
+				CD6643CB2A49E50E00288F19 /* CustomerRespository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		CD6643962A49BC6900288F19 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643972A49BC7600288F19 /* ThemeConfigurationStore.swift */,
+				CD66439A2A49BF0E00288F19 /* SessionStore.swift */,
+				CD66439C2A49C23000288F19 /* KeyStore.swift */,
+				CD6643AB2A49CC3D00288F19 /* AlertStore.swift */,
+				CD6643AD2A49CD1900288F19 /* DefaultKeyStore.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		CD6643992A49BEE100288F19 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		CD66439E2A49C58000288F19 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CD66439F2A49C58800288F19 /* DisplayAlertMessage */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CD66439F2A49C58800288F19 /* DisplayAlertMessage */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643A02A49C59800288F19 /* DisplayAlertMessageTask.swift */,
+				CD6643A22A49C61700288F19 /* DisplayAlertMessageTaskModel.swift */,
+			);
+			path = DisplayAlertMessage;
+			sourceTree = "<group>";
+		};
+		CD6643A42A49C73100288F19 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643A52A49C74200288F19 /* AlertMessage.swift */,
+				CD6643A72A49C74C00288F19 /* AlertStyle.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		CD6643AF2A49D8F700288F19 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643B02A49D8FD00288F19 /* SignIn */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		CD6643B02A49D8FD00288F19 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643B12A49D90B00288F19 /* SignInTask.swift */,
+				CD6643B32A49D9C600288F19 /* SignInTaskModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		CD6643B52A49DA3400288F19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643C02A49DC7400288F19 /* HTTP */,
+				CD6643B62A49DA3C00288F19 /* Requests */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CD6643B62A49DA3C00288F19 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643B72A49DA4200288F19 /* BFF */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		CD6643B72A49DA4200288F19 /* BFF */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643B82A49DA4700288F19 /* Customer */,
+			);
+			path = BFF;
+			sourceTree = "<group>";
+		};
+		CD6643B82A49DA4700288F19 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643B92A49DA4D00288F19 /* PostSignIn */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		CD6643B92A49DA4D00288F19 /* PostSignIn */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643BA2A49DA5900288F19 /* PostSignInRequest.swift */,
+				CD6643BC2A49DB2F00288F19 /* PostSignInPayload.swift */,
+				CD6643BE2A49DB3800288F19 /* PostSignInResponse.swift */,
+			);
+			path = PostSignIn;
+			sourceTree = "<group>";
+		};
+		CD6643C02A49DC7400288F19 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643CD2A49E5C100288F19 /* HTTPClient */,
+				CD6643C12A49DC9500288F19 /* HTTPRequest */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		CD6643C12A49DC9500288F19 /* HTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643C62A49DDA500288F19 /* HTTPEndpoint */,
+				CD6643C22A49DCA300288F19 /* HTTPRequest.swift */,
+				CD6643C42A49DD7B00288F19 /* HTTPMethod.swift */,
+			);
+			path = HTTPRequest;
+			sourceTree = "<group>";
+		};
+		CD6643C62A49DDA500288F19 /* HTTPEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643C72A49DDB400288F19 /* HTTPEndpoint.swift */,
+				CD6643C92A49DE6200288F19 /* NovadineEndpoint.swift */,
+			);
+			path = HTTPEndpoint;
+			sourceTree = "<group>";
+		};
+		CD6643CD2A49E5C100288F19 /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */,
+			);
+			path = HTTPClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -459,35 +743,71 @@
 			files = (
 				CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */,
 				CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */,
+				CD6643CF2A49E5CC00288F19 /* HTTPClient.swift in Sources */,
+				CD6643C82A49DDB400288F19 /* HTTPEndpoint.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
+				CD5C8ACD2A46091400EAFAB7 /* ValidatorOptions.swift in Sources */,
 				CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */,
 				CD0A20A82A4499B500B01456 /* ThemeConfigurationState.swift in Sources */,
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
 				CD2926022A40AC7400565D2A /* ContentView.swift in Sources */,
+				CD6643BD2A49DB2F00288F19 /* PostSignInPayload.swift in Sources */,
+				CD5C8AD02A46136500EAFAB7 /* EmptyValidator.swift in Sources */,
+				CD66439D2A49C23000288F19 /* KeyStore.swift in Sources */,
+				CD6643CA2A49DE6200288F19 /* NovadineEndpoint.swift in Sources */,
+				CD6643912A49BB4400288F19 /* Repository.swift in Sources */,
+				CD6643C52A49DD7B00288F19 /* HTTPMethod.swift in Sources */,
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
+				CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */,
 				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
+				CD6643A82A49C74C00288F19 /* AlertStyle.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
 				CD0A208A2A433FA600B01456 /* View+Extensions.swift in Sources */,
+				CD66439B2A49BF0E00288F19 /* SessionStore.swift in Sources */,
+				CD5C8AC12A4607E300EAFAB7 /* ModelProtocol.swift in Sources */,
+				CD6643982A49BC7600288F19 /* ThemeConfigurationStore.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
+				CD6643BB2A49DA5900288F19 /* PostSignInRequest.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
+				CD5C8AC62A46084200EAFAB7 /* Validator.swift in Sources */,
 				CD0A20972A44273800B01456 /* CardSummaryCellView.swift in Sources */,
+				CD6643AC2A49CC3D00288F19 /* AlertStore.swift in Sources */,
+				CD6643AE2A49CD1900288F19 /* DefaultKeyStore.swift in Sources */,
+				CD5C8ABE2A46075100EAFAB7 /* SignInModel.swift in Sources */,
+				CD6643A32A49C61700288F19 /* DisplayAlertMessageTaskModel.swift in Sources */,
 				CD0A20A62A44997800B01456 /* AppState.swift in Sources */,
 				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
 				CD0A209A2A4430AB00B01456 /* AddCardPageView.swift in Sources */,
 				CD0A20882A433D0200B01456 /* HomeHubContentView.swift in Sources */,
+				CD6643B42A49D9C600288F19 /* SignInTaskModel.swift in Sources */,
 				CD0A208D2A4358FA00B01456 /* AccountPageView.swift in Sources */,
+				CD6643952A49BBDB00288F19 /* Task.swift in Sources */,
 				CD0A20952A44272600B01456 /* ManageCardsPageView.swift in Sources */,
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
+				CD66438C2A49BA6400288F19 /* Tasks.swift in Sources */,
 				CD0A20922A43864300B01456 /* Footer.swift in Sources */,
+				CD6643A62A49C74200288F19 /* AlertMessage.swift in Sources */,
+				CD5C8ACB2A46090100EAFAB7 /* ValidationOption.swift in Sources */,
 				CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */,
+				CD6643B22A49D90B00288F19 /* SignInTask.swift in Sources */,
 				CD0A20792A41EEEA00B01456 /* CreateAccountView.swift in Sources */,
+				CD6643CC2A49E50E00288F19 /* CustomerRespository.swift in Sources */,
+				CD5C8AD22A461E4600EAFAB7 /* ViewModelProtocol.swift in Sources */,
 				CD0A20902A4361EE00B01456 /* ForgotPasswordView.swift in Sources */,
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
 				CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */,
+				CD5C8AC92A4608EC00EAFAB7 /* ValidationType.swift in Sources */,
 				CD2926382A40D79500565D2A /* SignInView.swift in Sources */,
 				CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */,
 				CD0A207B2A4229E600B01456 /* TermsOfServiceView.swift in Sources */,
+				CD66438F2A49BA9F00288F19 /* Repositories.swift in Sources */,
+				CD5C8AC42A46082500EAFAB7 /* ValidationForm.swift in Sources */,
+				CD6643892A49B8F400288F19 /* DependencyContainer.swift in Sources */,
+				CD6643A12A49C59800288F19 /* DisplayAlertMessageTask.swift in Sources */,
+				CD6643AA2A49C92A00288F19 /* AlertRepository.swift in Sources */,
+				CD6643C32A49DCA300288F19 /* HTTPRequest.swift in Sources */,
+				CD6643BF2A49DB3800288F19 /* PostSignInResponse.swift in Sources */,
 				CD0A20802A42319F00B01456 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
