@@ -28,4 +28,19 @@ struct Tasks {
         
         task.execute(with: taskModel)
     }
+    
+    func displayAlert(error: Error) -> Bool {
+        guard let error = error as? HTTPClient.HTTPClientError else {
+            return false
+        }
+        
+        switch error {
+        case .message(_, let messageError):
+            displayAlert(message: messageError.message, style: .error)
+            return true
+            
+        default:
+            return false
+        }
+    }
 }
