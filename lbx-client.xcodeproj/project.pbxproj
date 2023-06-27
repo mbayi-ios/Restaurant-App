@@ -78,6 +78,25 @@
 		CD6643CA2A49DE6200288F19 /* NovadineEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643C92A49DE6200288F19 /* NovadineEndpoint.swift */; };
 		CD6643CC2A49E50E00288F19 /* CustomerRespository.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643CB2A49E50E00288F19 /* CustomerRespository.swift */; };
 		CD6643CF2A49E5CC00288F19 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */; };
+		CD6643D22A4A141300288F19 /* HTTPMessageContextual.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643D12A4A141300288F19 /* HTTPMessageContextual.swift */; };
+		CD6643D52A4A14A300288F19 /* URLScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643D42A4A14A300288F19 /* URLScheme.swift */; };
+		CD6643D72A4A161000288F19 /* HTTPClientEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643D62A4A161000288F19 /* HTTPClientEncoder.swift */; };
+		CD6643D92A4A16A600288F19 /* HTTPClientDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643D82A4A16A600288F19 /* HTTPClientDecoder.swift */; };
+		CD6643DB2A4A170700288F19 /* HTTPRequestQueryItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643DA2A4A170700288F19 /* HTTPRequestQueryItems.swift */; };
+		CD6643DD2A4A177200288F19 /* HTTPClient+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643DC2A4A177200288F19 /* HTTPClient+Error.swift */; };
+		CD6643DF2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643DE2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift */; };
+		CD6643E12A4A1BE200288F19 /* HTTPErrorMessageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643E02A4A1BE200288F19 /* HTTPErrorMessageResponse.swift */; };
+		CD6643E32A4A1E4900288F19 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643E22A4A1E4900288F19 /* URLRequest+Extensions.swift */; };
+		CD6643E52A4A203F00288F19 /* HTTPRequestHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643E42A4A203F00288F19 /* HTTPRequestHeaders.swift */; };
+		CD6643E82A4A226A00288F19 /* CustomerAuthTokenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643E72A4A226A00288F19 /* CustomerAuthTokenTask.swift */; };
+		CD6643EB2A4A241200288F19 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643EA2A4A241200288F19 /* Customer.swift */; };
+		CD6643ED2A4A254100288F19 /* PhoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643EC2A4A254100288F19 /* PhoneService.swift */; };
+		CD6643EF2A4A276B00288F19 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643EE2A4A276B00288F19 /* Int+Extensions.swift */; };
+		CD6643F12A4A281A00288F19 /* SessionTokenTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F02A4A281A00288F19 /* SessionTokenTask.swift */; };
+		CD6643F42A4A2CE500288F19 /* GetCustomerMeTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F32A4A2CE500288F19 /* GetCustomerMeTask.swift */; };
+		CD6643F62A4B064E00288F19 /* GetCustomerMeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F52A4B064E00288F19 /* GetCustomerMeRequest.swift */; };
+		CD6643F82A4B06DC00288F19 /* GetCustomerMePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F72A4B06DC00288F19 /* GetCustomerMePayload.swift */; };
+		CD6643FA2A4B070200288F19 /* GetCustomerMeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F92A4B070200288F19 /* GetCustomerMeResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +181,25 @@
 		CD6643C92A49DE6200288F19 /* NovadineEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovadineEndpoint.swift; sourceTree = "<group>"; };
 		CD6643CB2A49E50E00288F19 /* CustomerRespository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerRespository.swift; sourceTree = "<group>"; };
 		CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		CD6643D12A4A141300288F19 /* HTTPMessageContextual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMessageContextual.swift; sourceTree = "<group>"; };
+		CD6643D42A4A14A300288F19 /* URLScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLScheme.swift; sourceTree = "<group>"; };
+		CD6643D62A4A161000288F19 /* HTTPClientEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientEncoder.swift; sourceTree = "<group>"; };
+		CD6643D82A4A16A600288F19 /* HTTPClientDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientDecoder.swift; sourceTree = "<group>"; };
+		CD6643DA2A4A170700288F19 /* HTTPRequestQueryItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestQueryItems.swift; sourceTree = "<group>"; };
+		CD6643DC2A4A177200288F19 /* HTTPClient+Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPClient+Error.swift"; sourceTree = "<group>"; };
+		CD6643DE2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPErrorValidationResponse.swift; sourceTree = "<group>"; };
+		CD6643E02A4A1BE200288F19 /* HTTPErrorMessageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPErrorMessageResponse.swift; sourceTree = "<group>"; };
+		CD6643E22A4A1E4900288F19 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		CD6643E42A4A203F00288F19 /* HTTPRequestHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestHeaders.swift; sourceTree = "<group>"; };
+		CD6643E72A4A226A00288F19 /* CustomerAuthTokenTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerAuthTokenTask.swift; sourceTree = "<group>"; };
+		CD6643EA2A4A241200288F19 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		CD6643EC2A4A254100288F19 /* PhoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneService.swift; sourceTree = "<group>"; };
+		CD6643EE2A4A276B00288F19 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		CD6643F02A4A281A00288F19 /* SessionTokenTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionTokenTask.swift; sourceTree = "<group>"; };
+		CD6643F32A4A2CE500288F19 /* GetCustomerMeTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMeTask.swift; sourceTree = "<group>"; };
+		CD6643F52A4B064E00288F19 /* GetCustomerMeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMeRequest.swift; sourceTree = "<group>"; };
+		CD6643F72A4B06DC00288F19 /* GetCustomerMePayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMePayload.swift; sourceTree = "<group>"; };
+		CD6643F92A4B070200288F19 /* GetCustomerMeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMeResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -412,6 +450,7 @@
 		CD29262D2A40BB8400565D2A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643E92A4A240800288F19 /* Customer */,
 				CD6643A42A49C73100288F19 /* Alert */,
 				CD29262E2A40BB9800565D2A /* ThemeConfiguration.swift */,
 			);
@@ -456,6 +495,7 @@
 				CD0A20A42A44996500B01456 /* AppState */,
 				CD29263C2A40EA4A00565D2A /* Extensions */,
 				CD6643882A49B8F400288F19 /* DependencyContainer.swift */,
+				CD6643EC2A4A254100288F19 /* PhoneService.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -465,6 +505,8 @@
 			children = (
 				CD29263E2A40EA6C00565D2A /* String+Extensions.swift */,
 				CD0A20892A433FA600B01456 /* View+Extensions.swift */,
+				CD6643E22A4A1E4900288F19 /* URLRequest+Extensions.swift */,
+				CD6643EE2A4A276B00288F19 /* Int+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -577,6 +619,8 @@
 		CD6643AF2A49D8F700288F19 /* Customer */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643F22A4A2CD700288F19 /* GetCustomerMe */,
+				CD6643E62A4A224400288F19 /* customerAuthToken */,
 				CD6643B02A49D8FD00288F19 /* SignIn */,
 			);
 			path = Customer;
@@ -649,6 +693,8 @@
 				CD6643C62A49DDA500288F19 /* HTTPEndpoint */,
 				CD6643C22A49DCA300288F19 /* HTTPRequest.swift */,
 				CD6643C42A49DD7B00288F19 /* HTTPMethod.swift */,
+				CD6643DA2A4A170700288F19 /* HTTPRequestQueryItems.swift */,
+				CD6643E42A4A203F00288F19 /* HTTPRequestHeaders.swift */,
 			);
 			path = HTTPRequest;
 			sourceTree = "<group>";
@@ -665,9 +711,60 @@
 		CD6643CD2A49E5C100288F19 /* HTTPClient */ = {
 			isa = PBXGroup;
 			children = (
+				CD6643D32A4A149100288F19 /* MessageContext */,
 				CD6643CE2A49E5CC00288F19 /* HTTPClient.swift */,
+				CD6643D62A4A161000288F19 /* HTTPClientEncoder.swift */,
+				CD6643D82A4A16A600288F19 /* HTTPClientDecoder.swift */,
+				CD6643DC2A4A177200288F19 /* HTTPClient+Error.swift */,
+				CD6643DE2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift */,
+				CD6643E02A4A1BE200288F19 /* HTTPErrorMessageResponse.swift */,
 			);
 			path = HTTPClient;
+			sourceTree = "<group>";
+		};
+		CD6643D02A4A13ED00288F19 /* HTTPMessageContextual */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643D12A4A141300288F19 /* HTTPMessageContextual.swift */,
+			);
+			path = HTTPMessageContextual;
+			sourceTree = "<group>";
+		};
+		CD6643D32A4A149100288F19 /* MessageContext */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643D02A4A13ED00288F19 /* HTTPMessageContextual */,
+				CD6643D42A4A14A300288F19 /* URLScheme.swift */,
+			);
+			path = MessageContext;
+			sourceTree = "<group>";
+		};
+		CD6643E62A4A224400288F19 /* customerAuthToken */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643E72A4A226A00288F19 /* CustomerAuthTokenTask.swift */,
+				CD6643F02A4A281A00288F19 /* SessionTokenTask.swift */,
+			);
+			path = customerAuthToken;
+			sourceTree = "<group>";
+		};
+		CD6643E92A4A240800288F19 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643EA2A4A241200288F19 /* Customer.swift */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		CD6643F22A4A2CD700288F19 /* GetCustomerMe */ = {
+			isa = PBXGroup;
+			children = (
+				CD6643F32A4A2CE500288F19 /* GetCustomerMeTask.swift */,
+				CD6643F52A4B064E00288F19 /* GetCustomerMeRequest.swift */,
+				CD6643F72A4B06DC00288F19 /* GetCustomerMePayload.swift */,
+				CD6643F92A4B070200288F19 /* GetCustomerMeResponse.swift */,
+			);
+			path = GetCustomerMe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -747,50 +844,65 @@
 				CD6643C82A49DDB400288F19 /* HTTPEndpoint.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
 				CD5C8ACD2A46091400EAFAB7 /* ValidatorOptions.swift in Sources */,
+				CD6643E52A4A203F00288F19 /* HTTPRequestHeaders.swift in Sources */,
 				CD0A209E2A443B4300B01456 /* MenuItemCell.swift in Sources */,
 				CD0A20A82A4499B500B01456 /* ThemeConfigurationState.swift in Sources */,
 				CD29262C2A40B6B800565D2A /* Colors.swift in Sources */,
 				CD2926022A40AC7400565D2A /* ContentView.swift in Sources */,
+				CD6643EB2A4A241200288F19 /* Customer.swift in Sources */,
 				CD6643BD2A49DB2F00288F19 /* PostSignInPayload.swift in Sources */,
 				CD5C8AD02A46136500EAFAB7 /* EmptyValidator.swift in Sources */,
 				CD66439D2A49C23000288F19 /* KeyStore.swift in Sources */,
 				CD6643CA2A49DE6200288F19 /* NovadineEndpoint.swift in Sources */,
+				CD6643DB2A4A170700288F19 /* HTTPRequestQueryItems.swift in Sources */,
 				CD6643912A49BB4400288F19 /* Repository.swift in Sources */,
+				CD6643D92A4A16A600288F19 /* HTTPClientDecoder.swift in Sources */,
 				CD6643C52A49DD7B00288F19 /* HTTPMethod.swift in Sources */,
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
+				CD6643F42A4A2CE500288F19 /* GetCustomerMeTask.swift in Sources */,
 				CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */,
 				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
 				CD6643A82A49C74C00288F19 /* AlertStyle.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
 				CD0A208A2A433FA600B01456 /* View+Extensions.swift in Sources */,
 				CD66439B2A49BF0E00288F19 /* SessionStore.swift in Sources */,
+				CD6643DD2A4A177200288F19 /* HTTPClient+Error.swift in Sources */,
 				CD5C8AC12A4607E300EAFAB7 /* ModelProtocol.swift in Sources */,
+				CD6643F12A4A281A00288F19 /* SessionTokenTask.swift in Sources */,
 				CD6643982A49BC7600288F19 /* ThemeConfigurationStore.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
+				CD6643FA2A4B070200288F19 /* GetCustomerMeResponse.swift in Sources */,
 				CD6643BB2A49DA5900288F19 /* PostSignInRequest.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
+				CD6643F82A4B06DC00288F19 /* GetCustomerMePayload.swift in Sources */,
 				CD5C8AC62A46084200EAFAB7 /* Validator.swift in Sources */,
+				CD6643E32A4A1E4900288F19 /* URLRequest+Extensions.swift in Sources */,
 				CD0A20972A44273800B01456 /* CardSummaryCellView.swift in Sources */,
 				CD6643AC2A49CC3D00288F19 /* AlertStore.swift in Sources */,
 				CD6643AE2A49CD1900288F19 /* DefaultKeyStore.swift in Sources */,
+				CD6643D52A4A14A300288F19 /* URLScheme.swift in Sources */,
 				CD5C8ABE2A46075100EAFAB7 /* SignInModel.swift in Sources */,
 				CD6643A32A49C61700288F19 /* DisplayAlertMessageTaskModel.swift in Sources */,
 				CD0A20A62A44997800B01456 /* AppState.swift in Sources */,
 				CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */,
 				CD0A209A2A4430AB00B01456 /* AddCardPageView.swift in Sources */,
+				CD6643E82A4A226A00288F19 /* CustomerAuthTokenTask.swift in Sources */,
 				CD0A20882A433D0200B01456 /* HomeHubContentView.swift in Sources */,
 				CD6643B42A49D9C600288F19 /* SignInTaskModel.swift in Sources */,
+				CD6643D72A4A161000288F19 /* HTTPClientEncoder.swift in Sources */,
 				CD0A208D2A4358FA00B01456 /* AccountPageView.swift in Sources */,
 				CD6643952A49BBDB00288F19 /* Task.swift in Sources */,
 				CD0A20952A44272600B01456 /* ManageCardsPageView.swift in Sources */,
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
+				CD6643D22A4A141300288F19 /* HTTPMessageContextual.swift in Sources */,
 				CD66438C2A49BA6400288F19 /* Tasks.swift in Sources */,
 				CD0A20922A43864300B01456 /* Footer.swift in Sources */,
 				CD6643A62A49C74200288F19 /* AlertMessage.swift in Sources */,
 				CD5C8ACB2A46090100EAFAB7 /* ValidationOption.swift in Sources */,
 				CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */,
 				CD6643B22A49D90B00288F19 /* SignInTask.swift in Sources */,
+				CD6643DF2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift in Sources */,
 				CD0A20792A41EEEA00B01456 /* CreateAccountView.swift in Sources */,
 				CD6643CC2A49E50E00288F19 /* CustomerRespository.swift in Sources */,
 				CD5C8AD22A461E4600EAFAB7 /* ViewModelProtocol.swift in Sources */,
@@ -798,17 +910,21 @@
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
 				CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */,
 				CD5C8AC92A4608EC00EAFAB7 /* ValidationType.swift in Sources */,
+				CD6643ED2A4A254100288F19 /* PhoneService.swift in Sources */,
 				CD2926382A40D79500565D2A /* SignInView.swift in Sources */,
+				CD6643F62A4B064E00288F19 /* GetCustomerMeRequest.swift in Sources */,
 				CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */,
 				CD0A207B2A4229E600B01456 /* TermsOfServiceView.swift in Sources */,
 				CD66438F2A49BA9F00288F19 /* Repositories.swift in Sources */,
 				CD5C8AC42A46082500EAFAB7 /* ValidationForm.swift in Sources */,
 				CD6643892A49B8F400288F19 /* DependencyContainer.swift in Sources */,
+				CD6643EF2A4A276B00288F19 /* Int+Extensions.swift in Sources */,
 				CD6643A12A49C59800288F19 /* DisplayAlertMessageTask.swift in Sources */,
 				CD6643AA2A49C92A00288F19 /* AlertRepository.swift in Sources */,
 				CD6643C32A49DCA300288F19 /* HTTPRequest.swift in Sources */,
 				CD6643BF2A49DB3800288F19 /* PostSignInResponse.swift in Sources */,
 				CD0A20802A42319F00B01456 /* HomeView.swift in Sources */,
+				CD6643E12A4A1BE200288F19 /* HTTPErrorMessageResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

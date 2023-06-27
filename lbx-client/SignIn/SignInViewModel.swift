@@ -45,13 +45,13 @@ class SignInViewModel: ViewModelProtocol {
         
         isLoading = true
         
-        let taskModel = SignInTask.Model(email: modal.email, password: model.password, deviceToken: sessionStore.currentDeviceToken.value)
+        let taskModel = SignInTask.Model(email: model.email, password: model.password, deviceToken: sessionStore.currentDeviceToken.value)
         
         let task = tasks.initialize(SignInTask.self)
         
         return task.execute(with: taskModel)
             .receive(on: DispatchQueue.main)
-            .subscribe(Subscribers.Sink(receiveCompletion: {response in
+            .subscribe(Subscribers.Sink(receiveCompletion: { response in
                 
                 switch response {
                 case .finished:
@@ -73,7 +73,7 @@ class SignInViewModel: ViewModelProtocol {
     func getCustomerMe() {
         self.isLoading = true
         
-        let task = tasks.initialize(GetCustomerTask.self)
+        let task = tasks.initialize(GetCustomerMeTask.self)
         
         return task.execute()
             .receive(on: DispatchQueue.main)

@@ -9,6 +9,7 @@ import Foundation
 
 enum NovadineEndpoint: HTTPEndpoint {
     case customers_signin
+    case customers_me
     
     var base: String {
         return "/api/v2"
@@ -18,6 +19,9 @@ enum NovadineEndpoint: HTTPEndpoint {
         switch self  {
         case .customers_signin:
             return "/customers/login"
+            
+        case .customers_me:
+            return "/customers/me"
         }
     }
     

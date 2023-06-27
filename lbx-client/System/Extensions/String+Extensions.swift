@@ -17,6 +17,11 @@ enum StringFormatStyle: String {
 }
 
 extension String {
+    func removeSpaces() -> String {
+        return self.replacingOccurrences(of: " ", with: "")
+            .trimmingCharacters(in: .whitespacesAndNewlines)
+    }
+    
     func formatString(with formatStyle: StringFormatStyle) -> (formattedString: String, rawValue: String) {
         let mask = formatStyle.rawValue
         let numbers = self.replacingOccurrences(of: "[^0-9]", with: "", options: .regularExpression)
