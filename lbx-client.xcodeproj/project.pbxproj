@@ -42,6 +42,11 @@
 		CD2926382A40D79500565D2A /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926372A40D79500565D2A /* SignInView.swift */; };
 		CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2926392A40DE3C00565D2A /* FormField.swift */; };
 		CD29263F2A40EA6C00565D2A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD29263E2A40EA6C00565D2A /* String+Extensions.swift */; };
+		CD5BFD352A4B1E2500479D85 /* LoadingOverlay .swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD342A4B1E2500479D85 /* LoadingOverlay .swift */; };
+		CD5BFD382A4B231900479D85 /* View+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD372A4B231900479D85 /* View+Alert.swift */; };
+		CD5BFD3A2A4B4E0F00479D85 /* LocalizedAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD392A4B4E0F00479D85 /* LocalizedAlertError.swift */; };
+		CD5BFD3C2A4B4E1700479D85 /* MessageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD3B2A4B4E1700479D85 /* MessageError.swift */; };
+		CD5BFD3E2A4B51B700479D85 /* NavigationBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD3D2A4B51B700479D85 /* NavigationBackButton.swift */; };
 		CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */; };
 		CD5C8ABE2A46075100EAFAB7 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */; };
 		CD5C8AC12A4607E300EAFAB7 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */; };
@@ -146,6 +151,11 @@
 		CD2926372A40D79500565D2A /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		CD2926392A40DE3C00565D2A /* FormField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormField.swift; sourceTree = "<group>"; };
 		CD29263E2A40EA6C00565D2A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CD5BFD342A4B1E2500479D85 /* LoadingOverlay .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoadingOverlay .swift"; sourceTree = "<group>"; };
+		CD5BFD372A4B231900479D85 /* View+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Alert.swift"; sourceTree = "<group>"; };
+		CD5BFD392A4B4E0F00479D85 /* LocalizedAlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedAlertError.swift; sourceTree = "<group>"; };
+		CD5BFD3B2A4B4E1700479D85 /* MessageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageError.swift; sourceTree = "<group>"; };
+		CD5BFD3D2A4B51B700479D85 /* NavigationBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackButton.swift; sourceTree = "<group>"; };
 		CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
@@ -344,6 +354,7 @@
 		CD2925FE2A40AC7400565D2A /* lbx-client */ = {
 			isa = PBXGroup;
 			children = (
+				CD5BFD362A4B230A00479D85 /* Alert */,
 				CD6643B52A49DA3400288F19 /* Network */,
 				CD5C8ABF2A4607D700EAFAB7 /* MVVM */,
 				CD0A209B2A443B2200B01456 /* Menu */,
@@ -420,6 +431,7 @@
 				CD2926392A40DE3C00565D2A /* FormField.swift */,
 				CD0A20742A41C88500B01456 /* SecureFormField.swift */,
 				CD0A207A2A4229E600B01456 /* TermsOfServiceView.swift */,
+				CD5BFD342A4B1E2500479D85 /* LoadingOverlay .swift */,
 			);
 			path = Molecules;
 			sourceTree = "<group>";
@@ -464,6 +476,7 @@
 			children = (
 				CD2926312A40C2FF00565D2A /* ButtonStyles.swift */,
 				CD0A20912A43864300B01456 /* Footer.swift */,
+				CD5BFD3D2A4B51B700479D85 /* NavigationBackButton.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -511,6 +524,16 @@
 				CD6643EE2A4A276B00288F19 /* Int+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD5BFD362A4B230A00479D85 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BFD372A4B231900479D85 /* View+Alert.swift */,
+				CD5BFD392A4B4E0F00479D85 /* LocalizedAlertError.swift */,
+				CD5BFD3B2A4B4E1700479D85 /* MessageError.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 		CD5C8ABF2A4607D700EAFAB7 /* MVVM */ = {
@@ -878,6 +901,7 @@
 				CD6643FA2A4B070200288F19 /* GetCustomerMeResponse.swift in Sources */,
 				CD6643BB2A49DA5900288F19 /* PostSignInRequest.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
+				CD5BFD3E2A4B51B700479D85 /* NavigationBackButton.swift in Sources */,
 				CD6643F82A4B06DC00288F19 /* GetCustomerMePayload.swift in Sources */,
 				CD5C8AC62A46084200EAFAB7 /* Validator.swift in Sources */,
 				CD6643E32A4A1E4900288F19 /* URLRequest+Extensions.swift in Sources */,
@@ -900,6 +924,7 @@
 				CD29262A2A40B51F00565D2A /* Config.swift in Sources */,
 				CD29261D2A40B0BF00565D2A /* AutoSizeText.swift in Sources */,
 				CD6643D22A4A141300288F19 /* HTTPMessageContextual.swift in Sources */,
+				CD5BFD382A4B231900479D85 /* View+Alert.swift in Sources */,
 				CD66438C2A49BA6400288F19 /* Tasks.swift in Sources */,
 				CD0A20922A43864300B01456 /* Footer.swift in Sources */,
 				CD6643A62A49C74200288F19 /* AlertMessage.swift in Sources */,
@@ -912,6 +937,7 @@
 				CD5C8AD22A461E4600EAFAB7 /* ViewModelProtocol.swift in Sources */,
 				CD0A20902A4361EE00B01456 /* ForgotPasswordView.swift in Sources */,
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
+				CD5BFD3C2A4B4E1700479D85 /* MessageError.swift in Sources */,
 				CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */,
 				CD5C8AC92A4608EC00EAFAB7 /* ValidationType.swift in Sources */,
 				CD6643ED2A4A254100288F19 /* PhoneService.swift in Sources */,
@@ -922,11 +948,13 @@
 				CD66438F2A49BA9F00288F19 /* Repositories.swift in Sources */,
 				CD5C8AC42A46082500EAFAB7 /* ValidationForm.swift in Sources */,
 				CD6643892A49B8F400288F19 /* DependencyContainer.swift in Sources */,
+				CD5BFD352A4B1E2500479D85 /* LoadingOverlay .swift in Sources */,
 				CD6643EF2A4A276B00288F19 /* Int+Extensions.swift in Sources */,
 				CD6643A12A49C59800288F19 /* DisplayAlertMessageTask.swift in Sources */,
 				CD6643AA2A49C92A00288F19 /* AlertRepository.swift in Sources */,
 				CD6643C32A49DCA300288F19 /* HTTPRequest.swift in Sources */,
 				CD6643BF2A49DB3800288F19 /* PostSignInResponse.swift in Sources */,
+				CD5BFD3A2A4B4E0F00479D85 /* LocalizedAlertError.swift in Sources */,
 				CD0A20802A42319F00B01456 /* HomeView.swift in Sources */,
 				CD6643E12A4A1BE200288F19 /* HTTPErrorMessageResponse.swift in Sources */,
 			);

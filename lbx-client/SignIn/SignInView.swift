@@ -8,17 +8,13 @@
 import SwiftUI
 
 struct SignInView: View {
-    @State var email: String = ""
-    @State var password: String = ""
-    
     @Environment(\.theme) var theme: Theme
     @Environment(\.dismiss) var dismiss
     
-    var isSignInRootView: Bool = false
-    
     @StateObject var viewModel = SignInViewModel()
     
-   
+    var isSignInRootView: Bool = false
+  
     var body: some View {
         NavigationView {
             VStack {
@@ -45,6 +41,9 @@ struct SignInView: View {
                 signInButton()
             }
         }
+        .loadingOverlay($viewModel.isLoading)
+        .errorAlert(error: $viewModel.error)
+        .navigationBar(theme: theme, title: "", leadingItem: self.navBarLogo())
     }
     
     private func headerLabel() -> some View {
@@ -79,7 +78,7 @@ struct SignInView: View {
     
     private func emailField() -> some View {
         FormField(
-            text: $email,
+            text: $viewModel.model.email,
             title: String(localized: "SignInView.FieldTitle.EmailAddress"),
             placeholder: String(localized: "SignInView.FieldPlaceHolder.EmailAddress"),
             autocorrectDisabled: true,
@@ -90,7 +89,7 @@ struct SignInView: View {
     
     private func passwordField() -> some View {
         SecureFormField(
-            text: $password,
+            text: $viewModel.model.password,
             title: String(localized: "SignInView.FieldTitle.Password"),
             placeholder: String(localized: "SignInView.FieldPlaceholder.Password"),
             contentType: .password
@@ -146,10 +145,19 @@ struct SignInView: View {
         }
     }
     
+    private func navBarLogo() -> some View {
+        HStack() {
+            NavigationBackButton()
+                Spacer()
+        }
+        .padding([.top, .bottom], 5)
+        .frame(width: 100)
+    }
+    
 }
 
 struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
-        SignInView(email: "ambymbayi@gmail.com", password: "mypassword")
+        SignInView()
     }
 }

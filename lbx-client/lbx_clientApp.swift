@@ -12,12 +12,12 @@ struct lbx_clientApp: App {
     var body: some Scene {
         WindowGroup {
             //WalkthroughNotificationView()
-            //SignInView(email: "email", password: "xxx")
+            SignInView()
             //CreateAccountView()
             //ProfilePageView()
             //HomeView()
             //AccountPageView()
-            ManageCardsPageView()
+            //ManageCardsPageView()
         }
     }
 }
