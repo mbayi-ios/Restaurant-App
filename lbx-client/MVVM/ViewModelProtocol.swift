@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 protocol ViewModelProtocol: ObservableObject {
     associatedtype Model: ModelProtocol

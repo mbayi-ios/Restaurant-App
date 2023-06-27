@@ -16,6 +16,8 @@ struct SignInView: View {
     
     var isSignInRootView: Bool = false
     
+    @StateObject var viewModel = SignInViewModel()
+    
    
     var body: some View {
         NavigationView {
@@ -107,7 +109,7 @@ struct SignInView: View {
     
     private func signInButton() -> some View {
         Button {
-            // to be implemented
+            viewModel.handleSignIn()
         } label : {
             Text(String(localized: "SignInView.Button.SignIn"))
         }

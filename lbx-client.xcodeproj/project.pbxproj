@@ -97,6 +97,7 @@
 		CD6643F62A4B064E00288F19 /* GetCustomerMeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F52A4B064E00288F19 /* GetCustomerMeRequest.swift */; };
 		CD6643F82A4B06DC00288F19 /* GetCustomerMePayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F72A4B06DC00288F19 /* GetCustomerMePayload.swift */; };
 		CD6643FA2A4B070200288F19 /* GetCustomerMeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643F92A4B070200288F19 /* GetCustomerMeResponse.swift */; };
+		CD6643FC2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6643FB2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -200,6 +201,7 @@
 		CD6643F52A4B064E00288F19 /* GetCustomerMeRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMeRequest.swift; sourceTree = "<group>"; };
 		CD6643F72A4B06DC00288F19 /* GetCustomerMePayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMePayload.swift; sourceTree = "<group>"; };
 		CD6643F92A4B070200288F19 /* GetCustomerMeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCustomerMeResponse.swift; sourceTree = "<group>"; };
+		CD6643FB2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+GetCustomerMeResponse.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -752,6 +754,7 @@
 			isa = PBXGroup;
 			children = (
 				CD6643EA2A4A241200288F19 /* Customer.swift */,
+				CD6643FB2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift */,
 			);
 			path = Customer;
 			sourceTree = "<group>";
@@ -861,6 +864,7 @@
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
 				CD6643F42A4A2CE500288F19 /* GetCustomerMeTask.swift in Sources */,
 				CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */,
+				CD6643FC2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift in Sources */,
 				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
 				CD6643A82A49C74C00288F19 /* AlertStyle.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,

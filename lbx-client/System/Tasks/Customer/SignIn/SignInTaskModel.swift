@@ -15,6 +15,9 @@ struct SignInTaskModel {
 
 extension PostSignInRequest.Payload {
     init(taskModel: SignInTaskModel) {
-        self.init(email: taskModel.email, password: taskModel.password, deviceToken: taskModel.deviceToken)
+        self.init(email: taskModel.email,
+                  password: taskModel.password,
+                  deviceToken: taskModel.deviceToken
+        )
     }
 }

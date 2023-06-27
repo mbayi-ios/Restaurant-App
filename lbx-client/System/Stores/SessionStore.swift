@@ -36,4 +36,10 @@ struct SessionStore {
         
         currentSessionToken.send(token)
     }
+    
+    func storeCurrentCustomer(_ customer: Customer) {
+        guard let encodedCustomer = try? JSONEncoder().encode(customer) else {
+            return
+        }
+    }
 }
