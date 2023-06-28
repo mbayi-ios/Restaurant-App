@@ -63,7 +63,7 @@ struct SignInView: View {
     }
     
     private func createAccountButton() -> some View {
-        NavigationLink(destination: Text("createAccountView")) {
+        NavigationLink(destination: CreateAccountView()) {
             HStack(alignment: .center, spacing: 5) {
                 Text(String(localized: "SignInView.Label.DontHaveAnAccount"))
                     .font(theme.typography.caption)

@@ -43,6 +43,19 @@ struct CustomerRepository: Repository {
             .eraseToAnyPublisher()
     }
     
+    func signUp(with taskModel: SignUpTask.Model) -> AnyPublisher<Bool, Error> {
+        let payload = PostSignUpRequest.Payload(taskModel: taskModel)
+        let request = PostSignUpRequest(payload: payload)
+        
+        return client.perform(request).tryMap { response in
+            let customer = Customer(response: response)
+            sessionStore.storeCurrentCustomer(customer)
+            
+            return true
+        }
+        .eraseToAnyPublisher()
+    }
+    
     func getCustomerMe() -> AnyPublisher<Bool, Error> {
         let request = GetCustomerMeRequest()
         

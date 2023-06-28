@@ -47,6 +47,15 @@
 		CD5BFD3A2A4B4E0F00479D85 /* LocalizedAlertError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD392A4B4E0F00479D85 /* LocalizedAlertError.swift */; };
 		CD5BFD3C2A4B4E1700479D85 /* MessageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD3B2A4B4E1700479D85 /* MessageError.swift */; };
 		CD5BFD3E2A4B51B700479D85 /* NavigationBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD3D2A4B51B700479D85 /* NavigationBackButton.swift */; };
+		CD5BFD402A4B6BA000479D85 /* CreateAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD3F2A4B6BA000479D85 /* CreateAccountModel.swift */; };
+		CD5BFD422A4B6CF700479D85 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD412A4B6CF700479D85 /* EmailValidator.swift */; };
+		CD5BFD442A4B6E6000479D85 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD432A4B6E6000479D85 /* PhoneValidator.swift */; };
+		CD5BFD462A4B6F6900479D85 /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD452A4B6F6900479D85 /* PasswordValidator.swift */; };
+		CD5BFD482A4B718000479D85 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD472A4B718000479D85 /* CreateAccountViewModel.swift */; };
+		CD5BFD4B2A4B753800479D85 /* SignUpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD4A2A4B753800479D85 /* SignUpTask.swift */; };
+		CD5BFD4D2A4B75F600479D85 /* SignUpTaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD4C2A4B75F600479D85 /* SignUpTaskModel.swift */; };
+		CD5BFD502A4B76CD00479D85 /* PostSignUpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD4F2A4B76CD00479D85 /* PostSignUpRequest.swift */; };
+		CD5BFD522A4B77D300479D85 /* PostSignUpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5BFD512A4B77D300479D85 /* PostSignUpResponse.swift */; };
 		CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */; };
 		CD5C8ABE2A46075100EAFAB7 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */; };
 		CD5C8AC12A4607E300EAFAB7 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */; };
@@ -156,6 +165,15 @@
 		CD5BFD392A4B4E0F00479D85 /* LocalizedAlertError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedAlertError.swift; sourceTree = "<group>"; };
 		CD5BFD3B2A4B4E1700479D85 /* MessageError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageError.swift; sourceTree = "<group>"; };
 		CD5BFD3D2A4B51B700479D85 /* NavigationBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBackButton.swift; sourceTree = "<group>"; };
+		CD5BFD3F2A4B6BA000479D85 /* CreateAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountModel.swift; sourceTree = "<group>"; };
+		CD5BFD412A4B6CF700479D85 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		CD5BFD432A4B6E6000479D85 /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		CD5BFD452A4B6F6900479D85 /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		CD5BFD472A4B718000479D85 /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		CD5BFD4A2A4B753800479D85 /* SignUpTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTask.swift; sourceTree = "<group>"; };
+		CD5BFD4C2A4B75F600479D85 /* SignUpTaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTaskModel.swift; sourceTree = "<group>"; };
+		CD5BFD4F2A4B76CD00479D85 /* PostSignUpRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSignUpRequest.swift; sourceTree = "<group>"; };
+		CD5BFD512A4B77D300479D85 /* PostSignUpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostSignUpResponse.swift; sourceTree = "<group>"; };
 		CD5C8ABB2A46074400EAFAB7 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		CD5C8ABD2A46075100EAFAB7 /* SignInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
 		CD5C8AC02A4607E300EAFAB7 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
@@ -229,6 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				CD0A20782A41EEEA00B01456 /* CreateAccountView.swift */,
+				CD5BFD3F2A4B6BA000479D85 /* CreateAccountModel.swift */,
+				CD5BFD472A4B718000479D85 /* CreateAccountViewModel.swift */,
 			);
 			path = CreateAccount;
 			sourceTree = "<group>";
@@ -536,6 +556,24 @@
 			path = Alert;
 			sourceTree = "<group>";
 		};
+		CD5BFD492A4B752800479D85 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BFD4A2A4B753800479D85 /* SignUpTask.swift */,
+				CD5BFD4C2A4B75F600479D85 /* SignUpTaskModel.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		CD5BFD4E2A4B76BE00479D85 /* PostSignUp */ = {
+			isa = PBXGroup;
+			children = (
+				CD5BFD4F2A4B76CD00479D85 /* PostSignUpRequest.swift */,
+				CD5BFD512A4B77D300479D85 /* PostSignUpResponse.swift */,
+			);
+			path = PostSignUp;
+			sourceTree = "<group>";
+		};
 		CD5C8ABF2A4607D700EAFAB7 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,6 +608,9 @@
 			isa = PBXGroup;
 			children = (
 				CD5C8ACF2A46136500EAFAB7 /* EmptyValidator.swift */,
+				CD5BFD412A4B6CF700479D85 /* EmailValidator.swift */,
+				CD5BFD432A4B6E6000479D85 /* PhoneValidator.swift */,
+				CD5BFD452A4B6F6900479D85 /* PasswordValidator.swift */,
 			);
 			path = Validators;
 			sourceTree = "<group>";
@@ -644,6 +685,7 @@
 		CD6643AF2A49D8F700288F19 /* Customer */ = {
 			isa = PBXGroup;
 			children = (
+				CD5BFD492A4B752800479D85 /* SignUp */,
 				CD6643F22A4A2CD700288F19 /* GetCustomerMe */,
 				CD6643E62A4A224400288F19 /* customerAuthToken */,
 				CD6643B02A49D8FD00288F19 /* SignIn */,
@@ -688,6 +730,7 @@
 		CD6643B82A49DA4700288F19 /* Customer */ = {
 			isa = PBXGroup;
 			children = (
+				CD5BFD4E2A4B76BE00479D85 /* PostSignUp */,
 				CD6643B92A49DA4D00288F19 /* PostSignIn */,
 			);
 			path = Customer;
@@ -867,6 +910,8 @@
 				CD29263A2A40DE3C00565D2A /* FormField.swift in Sources */,
 				CD2926322A40C2FF00565D2A /* ButtonStyles.swift in Sources */,
 				CD6643CF2A49E5CC00288F19 /* HTTPClient.swift in Sources */,
+				CD5BFD462A4B6F6900479D85 /* PasswordValidator.swift in Sources */,
+				CD5BFD4B2A4B753800479D85 /* SignUpTask.swift in Sources */,
 				CD6643C82A49DDB400288F19 /* HTTPEndpoint.swift in Sources */,
 				CD2926242A40B2DE00565D2A /* Typography.swift in Sources */,
 				CD5C8ACD2A46091400EAFAB7 /* ValidatorOptions.swift in Sources */,
@@ -887,8 +932,10 @@
 				CD2926002A40AC7400565D2A /* lbx_clientApp.swift in Sources */,
 				CD6643F42A4A2CE500288F19 /* GetCustomerMeTask.swift in Sources */,
 				CD5C8ABC2A46074400EAFAB7 /* SignInViewModel.swift in Sources */,
+				CD5BFD482A4B718000479D85 /* CreateAccountViewModel.swift in Sources */,
 				CD6643FC2A4B0FD100288F19 /* Customer+GetCustomerMeResponse.swift in Sources */,
 				CD2926352A40D48900565D2A /* SplashView.swift in Sources */,
+				CD5BFD522A4B77D300479D85 /* PostSignUpResponse.swift in Sources */,
 				CD6643A82A49C74C00288F19 /* AlertStyle.swift in Sources */,
 				CD29261A2A40AEA400565D2A /* Theme.swift in Sources */,
 				CD0A208A2A433FA600B01456 /* View+Extensions.swift in Sources */,
@@ -899,6 +946,7 @@
 				CD6643982A49BC7600288F19 /* ThemeConfigurationStore.swift in Sources */,
 				CD2926182A40ADA200565D2A /* Icons.swift in Sources */,
 				CD6643FA2A4B070200288F19 /* GetCustomerMeResponse.swift in Sources */,
+				CD5BFD402A4B6BA000479D85 /* CreateAccountModel.swift in Sources */,
 				CD6643BB2A49DA5900288F19 /* PostSignInRequest.swift in Sources */,
 				CD29262F2A40BB9800565D2A /* ThemeConfiguration.swift in Sources */,
 				CD5BFD3E2A4B51B700479D85 /* NavigationBackButton.swift in Sources */,
@@ -926,21 +974,25 @@
 				CD6643D22A4A141300288F19 /* HTTPMessageContextual.swift in Sources */,
 				CD5BFD382A4B231900479D85 /* View+Alert.swift in Sources */,
 				CD66438C2A49BA6400288F19 /* Tasks.swift in Sources */,
+				CD5BFD4D2A4B75F600479D85 /* SignUpTaskModel.swift in Sources */,
 				CD0A20922A43864300B01456 /* Footer.swift in Sources */,
 				CD6643A62A49C74200288F19 /* AlertMessage.swift in Sources */,
 				CD5C8ACB2A46090100EAFAB7 /* ValidationOption.swift in Sources */,
 				CD0A20862A42424500B01456 /* ProfilePageView.swift in Sources */,
+				CD5BFD502A4B76CD00479D85 /* PostSignUpRequest.swift in Sources */,
 				CD6643B22A49D90B00288F19 /* SignInTask.swift in Sources */,
 				CD6643DF2A4A1B5B00288F19 /* HTTPErrorValidationResponse.swift in Sources */,
 				CD0A20792A41EEEA00B01456 /* CreateAccountView.swift in Sources */,
 				CD6643CC2A49E50E00288F19 /* CustomerRespository.swift in Sources */,
 				CD5C8AD22A461E4600EAFAB7 /* ViewModelProtocol.swift in Sources */,
+				CD5BFD422A4B6CF700479D85 /* EmailValidator.swift in Sources */,
 				CD0A20902A4361EE00B01456 /* ForgotPasswordView.swift in Sources */,
 				CD2926132A40AD0000565D2A /* WalkthroughNotificationView.swift in Sources */,
 				CD5BFD3C2A4B4E1700479D85 /* MessageError.swift in Sources */,
 				CD0A20832A4231CB00B01456 /* HomeCarouselView.swift in Sources */,
 				CD5C8AC92A4608EC00EAFAB7 /* ValidationType.swift in Sources */,
 				CD6643ED2A4A254100288F19 /* PhoneService.swift in Sources */,
+				CD5BFD442A4B6E6000479D85 /* PhoneValidator.swift in Sources */,
 				CD2926382A40D79500565D2A /* SignInView.swift in Sources */,
 				CD6643F62A4B064E00288F19 /* GetCustomerMeRequest.swift in Sources */,
 				CD0A20752A41C88500B01456 /* SecureFormField.swift in Sources */,
